@@ -192,9 +192,9 @@
             </span>
         </div>
         <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1200px; margin:0 auto 40px auto;">
-            <img src="images/bonus1.png" alt="Bonus 1" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
-            <img src="images/bonus2.png" alt="Bonus 2" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
-            <img src="images/bonus3.png" alt="Bonus 3" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
+            <img src="images/Acting-school-Bonus-1.webp" alt="Bonus 1" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
+            <img src="images/Acting-school-Bonus-2.webp" alt="Bonus 2" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
+            <img src="images/Acting-school-Bonus-3.webp" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
         </div>
         <div style="display:flex; justify-content:center; margin-top:18px;">
             <div style="background:#ff5c1a; color:#fff; font-size:1.5em; font-weight:700; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003;">
@@ -265,10 +265,10 @@
             Have A Look At <u>What People Have To Speak About Us</u>
         </div>
         <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1200px; margin:0 auto 40px auto;">
-            <img src="images/review1.png" alt="Review 1" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
-            <img src="images/review2.png" alt="Review 2" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
-            <img src="images/review3.png" alt="Review 3" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
-            <img src="images/review4.png" alt="Review 4" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
+            <img src="images/image.png" alt="Review 1" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
+            <img src="images/image.png" alt="Review 2" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
+            <img src="images/image.png" alt="Review 3" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
+            <img src="images/image.png" alt="Review 4" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
         </div>
         <div style="display:flex; justify-content:center; margin-top:18px;">
             <div style="background:#ff2d2d; color:#fff; font-size:2em; font-weight:900; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003;">
