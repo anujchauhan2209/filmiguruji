@@ -290,7 +290,9 @@
         </div>
         <div style="max-width:1100px; margin:0 auto; border:2px solid #06142e; border-radius:16px; padding:38px 24px 32px 24px; display:flex; flex-wrap:wrap; gap:32px; background:#18181a;">
             <div style="flex:1 1 320px; display:flex; flex-direction:column; align-items:center;">
-                <img src="images/fg_person.webp" alt="Radhe Ajeet Chaudhary" style="width:340px; max-width:95%; border-radius:16px;">
+                <img src="images/fg_person.webp" alt="Radhe Ajeet Chaudhary" style="    width: 466px;
+    max-width: 131%;
+ border-radius:16px;">
                 <div style="margin-top:24px; color:#ff2d2d; font-size:2em; font-weight:900; text-align:center;">
                     Radhe Ajeet Chaudhary
                 </div>
