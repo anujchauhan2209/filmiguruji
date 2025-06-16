@@ -121,9 +121,10 @@
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/your_video_id_here" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-                <form action="register.php" method="get">
-                    <button class="register-btn" type="submit">➤ Register Now</button>
-                </form>
+                <!-- Main Content Register Now button (already handled) -->
+<form action="register.php" method="get" class="open-register-modal-form">
+    <button class="register-btn open-register-modal-btn" type="button">➤ Register Now</button>
+</form>
             </div>
         </div>
     </div>
@@ -220,12 +221,12 @@
             <img src="images/Acting-school-Bonus-3.webp" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
         </div>
         <div style="display:flex; justify-content:center; margin-top:18px;">
-            <div style="background:#ff5c1a; color:#fff; font-size:1.5em; font-weight:700; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003;">
-                <span style="font-size:1.1em;">&#10148; DON'T MISS OUT – REGISTER NOW</span><br>
-                <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
-                    🎁 ₹1499 की मास्टरक्लास अब सिर्फ ₹99 में!
-                </span>
-            </div>
+            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff5c1a; color:#fff; font-size:1.5em; font-weight:700; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
+        <span style="font-size:1.1em;">&#10148; DON'T MISS OUT – REGISTER NOW</span><br>
+        <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
+            🎁 ₹1499 की मास्टरक्लास अब सिर्फ ₹99 में!
+        </span>
+    </div>
         </div>
     </div>
     <!-- End Bonuses Section -->
@@ -266,11 +267,12 @@
                 <div style="color:#ff3c00; font-size:2em; font-weight:700; margin-bottom:10px;">
                     अभी रजिस्टर करें, यदि आप MOVIE, WEBSERIES, TV और AD FILMS में काम करना चाहते हैं。
                 </div>
-                <form action="register.php" method="get" style="margin-top:10px;">
-                    <button type="submit" style="background:#e53935; color:#fff; font-size:1.3em; font-weight:700; padding:14px 48px; border:none; border-radius:8px; cursor:pointer;">
-                        BOOK YOUR SPOT NOW
-                    </button>
-                </form>
+                <!-- Are You Facing Section: BOOK YOUR SPOT NOW (already handled) -->
+<form action="register.php" method="get" class="open-register-modal-form" style="margin-top:10px;">
+    <button type="button" class="open-register-modal-btn" style="background:#e53935; color:#fff; font-size:1.3em; font-weight:700; padding:14px 48px; border:none; border-radius:8px; cursor:pointer;">
+        BOOK YOUR SPOT NOW
+    </button>
+</form>
             </div>
         </div>
         <div style="height:40px;"></div>
@@ -327,12 +329,12 @@
             <img src="images/image.png" alt="Review 4" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
         </div>
         <div style="display:flex; justify-content:center; margin-top:18px;">
-            <div style="background:#ff2d2d; color:#fff; font-size:2em; font-weight:900; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003;">
-                <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW!</span><br>
-                <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
-                    (FOR 99 <span style="font-size:1.1em;">🤩</span>)
-                </span>
-            </div>
+            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff2d2d; color:#fff; font-size:2em; font-weight:900; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
+        <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW!</span><br>
+        <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
+            (FOR 99 <span style="font-size:1.1em;">🤩</span>)
+        </span>
+    </div>
         </div>
     </div>
     <!-- End Testimonial Section -->
@@ -366,7 +368,7 @@
             </div>
         </div>
         <div style="display:flex; justify-content:center; margin-top:38px;">
-            <div style="background:#ff6600; color:#fff; font-size:2em; font-weight:900; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; border-bottom:4px solid #e53935; display:inline-block;">
+            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff6600; color:#fff; font-size:2em; font-weight:900; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; border-bottom:4px solid #e53935; display:inline-block; cursor:pointer;">
                 <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW! &nbsp; (FOR FREE <span style="font-size:1.1em;">🤩</span>)</span>
             </div>
         </div>
@@ -558,10 +560,11 @@
     </div>
     <!-- End Footer Section -->
 
-    <!-- Sticky Register Now Button (UI like the image, fixed width and responsive) -->
+    <!-- Sticky Register Now Button (with popup trigger) -->
 <div id="sticky-register" style="
     position:fixed;
-    left:0; right:0; bottom:0;
+    left:0; right:0;
+    bottom:0;
     z-index:9999;
     background: #03142a;
     border-top: 4px solid #e53935;
@@ -570,22 +573,69 @@
     justify-content:center;
     align-items:center;
     padding: 0;
-    min-height: 70px;
+    min-height: 54px;
 ">
-    <form action="register.php" method="get" style="margin:0; width:100%; display:flex; justify-content:center;">
-        <button type="submit" style="
-                background: #ff5c1a;
-    border: 1px solid #e1cfcf;
-    border-radius: 30px;
-    color: white;
-    padding: 12px 179px;
-    font-weight: 800;
-        ">
-            <i class="bi bi-chevron-right" style="font-size:1.3em;"></i> Register Now
-        </button>
-    </form>
+    <button type="button" id="openRegisterModal" style="
+        background: #ff5c1a;
+        border: 1px solid #e1cfcf;
+        border-radius: 30px;
+        color: white;
+        padding: 8px 32px;
+        font-weight: 700;
+        font-size: 1.15em;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    ">
+        <i class="bi bi-chevron-right" style="font-size:1.1em;"></i> Register Now
+    </button>
 </div>
 <!-- End Sticky Register Now Button -->
+
+<!-- Register Modal Popup -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" style="    max-width: 742px;">
+    <div class="modal-content" style="border-radius:20px;">
+      <div class="modal-body" style="padding:32px 24px 18px 24px; background:#fff; border-radius:20px; text-align:center;">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position:absolute; right:18px; top:18px;"></button>
+        <div style="font-size:1.5em; font-weight:700; margin-bottom:8px; color:#111;">
+            निःशुल्क हिंदी Webinar के लिए रजिस्टर कीजिए
+        </div>
+        <div style="font-size:2.2em; font-weight:900; color:#e60000; margin-bottom:18px;">
+            Register For Free Webinar
+        </div>
+        <form id="popupRegisterForm" action="register.php" method="post" autocomplete="off">
+          <div class="row g-3 mb-2">
+            <div class="col-12 col-md-6">
+              <input type="text" name="first_name" class="form-control" placeholder="आपका प्रथम नाम - First Name" required style="font-size:1.1em; border-radius:8px;">
+            </div>
+            <div class="col-12 col-md-6">
+              <input type="text" name="last_name" class="form-control" placeholder="आपका सरनेम - Last Name" required style="font-size:1.1em; border-radius:8px;">
+            </div>
+          </div>
+          <div class="mb-2 " style="padding-top:20px">
+            <input type="text" name="whatsapp" maxlength="10" pattern="\d{10}" class="form-control" placeholder="आपका Whatsapp नम्बर - Whatsapp Number 10 Digits" required style="font-size:1.1em; border-radius:8px;">
+            <div style="font-size:0.95em; color:#222; text-align:left; margin-top:2px;">10 of 10 Number(s) left</div>
+          </div>
+          <div class="mb-3">
+            <input type="email" name="email" class="form-control" placeholder="आपकी Email Address - Enter your e-mail" required style="font-size:1.1em; border-radius:8px;">
+          </div>
+          <button type="submit" class="btn" style="background:#e60000; color:#fff; font-size:1.3em; font-weight:700; border-radius:30px; padding:12px 48px; margin:18px 0 8px 0;">
+            <i class="bi bi-box-arrow-in-right me-2"></i> Register Now
+          </button>
+        </form>
+        <div style="font-size:1.15em; font-weight:700; color:#111; margin:10px 0 0 0;">
+            जल्दी कीजिए, Limited Seats
+        </div>
+        <div style="font-size:1em; color:#222, margin-top:10px;">
+            We will not spam, rent, or sell your information…
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Register Modal Popup -->
 
 <style>
 @media (max-width: 700px) {
@@ -595,11 +645,19 @@
         width: 90vw !important;
         min-width: 0 !important;
     }
+    #registerModal .modal-dialog {
+        max-width: 98vw !important;
+        margin: 0.5rem auto;
+    }
 }
 @media (max-width: 400px) {
     #sticky-register button {
         font-size: 1em !important;
         padding: 10px 2vw !important;
+    }
+    #registerModal .modal-dialog {
+        max-width: 100vw !important;
+        margin: 0.2rem auto;
     }
 }
 </style>
@@ -621,6 +679,19 @@
                     1000:{ items:3 }
                 }
             });
+            // Open modal on sticky register button click
+            function openRegisterModal() {
+            var modal = new bootstrap.Modal(document.getElementById('registerModal'));
+            modal.show();
+        }
+        $('#openRegisterModal').on('click', openRegisterModal);
+        $(document).on('click', '.open-register-modal-btn', openRegisterModal);
+        // Also allow keyboard enter/space for accessibility
+        $(document).on('keydown', '.open-register-modal-btn', function(e){
+            if (e.key === "Enter" || e.key === " ") {
+                openRegisterModal();
+            }
+        });
         });
     </script>
 </body>
