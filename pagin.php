@@ -334,7 +334,7 @@
     </div>
     <!-- End Are You Facing Section -->
 
-    <!-- Testimonial Section -->
+   <!-- Testimonial Section -->
     <div style="background:#fff; padding:50px 0 30px 0;">
         <div style="text-align:center; margin-bottom:18px;">
             <span style="background:#ff2d2d; color:#fff; font-size:2em; font-weight:900; padding:2px 10px; border-radius:4px;">
@@ -347,34 +347,34 @@
                 <b>See What Our Aspiring Actors have to Say about <i>Us</i></b>
             </span>
         </div>
-        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1200px; margin:0 auto 40px auto;">
-            <div style="border:2px solid #2196f3; border-radius:6px; overflow:hidden; width:260px; background:#000;">
-                <img src="images/vishal.jpg" alt="Vishal" style="width:100%; display:block;">
-                <div style="background:#d50032; color:#fff; font-size:1.2em; font-weight:700; text-align:center; padding:6px 0;">
-                    Vishal
+        <div class="container">
+            <div class="owl-carousel owl-theme" id="testimonial-video-carousel">
+                <div class="item">
+                    <div style="border-radius:10px; overflow:hidden; box-shadow:0 2px 12px #0002; background:#000; max-width:320px; margin:auto;">
+                        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+                            <iframe src="https://www.youtube.com/embed/LnZWIyZ_4Ds" title="Testimonial 1" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div style="border:2px solid #2196f3; border-radius:6px; overflow:hidden; width:260px; background:#000;">
-                <img src="images/avinash.jpg" alt="Avinash" style="width:100%; display:block;">
-                <div style="background:#d50032; color:#fff; font-size:1.2em; font-weight:700; text-align:center; padding:6px 0;">
-                    Avinash
+                <div class="item">
+                    <div style="border-radius:10px; overflow:hidden; box-shadow:0 2px 12px #0002; background:#000; max-width:320px; margin:auto;">
+                        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+                            <iframe src="https://www.youtube.com/embed/h2BslXTfJsA" title="Testimonial 2" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div style="border:2px solid #2196f3; border-radius:6px; overflow:hidden; width:260px; background:#000;">
-                <img src="images/ashwini.jpg" alt="Ashwini" style="width:100%; display:block;">
-                <div style="background:#d50032; color:#fff; font-size:1.2em; font-weight:700; text-align:center; padding:6px 0;">
-                    Ashwini
+                <div class="item">
+                    <div style="border-radius:10px; overflow:hidden; box-shadow:0 2px 12px #0002; background:#000; max-width:320px; margin:auto;">
+                        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+                            <iframe src="https://www.youtube.com/embed/WWCqxVa75zA" title="Testimonial 3" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div style="border:2px solid #2196f3; border-radius:6px; overflow:hidden; width:260px; background:#000;">
-                <img src="images/pratibha.jpg" alt="Pratibha" style="width:100%; display:block;">
-                <div style="background:#d50032; color:#fff; font-size:1.2em; font-weight:700; text-align:center; padding:6px 0;">
-                    Pratibha
-                </div>
+                <!-- Add more items as needed -->
             </div>
         </div>
         <!-- End New Video Testimonial Section -->
-        <div style="text-align:center; font-size:2em; font-weight:700; color:#222; margin-bottom:38px;">
+        <div class="mt-4" style="text-align:center; font-size:2em; font-weight:700; color:#222; margin-bottom:38px;">
             Have A Look At <u>What People Have To Speak About Us</u>
         </div>
         <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1200px; margin:0 auto 40px auto;">
@@ -384,7 +384,7 @@
             <img src="images/image.png" alt="Review 4" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
         </div>
         <div style="display:flex; justify-content:center; margin-top:18px;">
-            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff2d2d; color:#fff; font-size:2em; font-weight:900; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
+            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff2d2d; color:#fff; font-size:1.5em; font-weight:750; padding:0px 25px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
         <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW!</span><br>
         <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
             (FOR 99 <span style="font-size:1.1em;">🤩</span>)
