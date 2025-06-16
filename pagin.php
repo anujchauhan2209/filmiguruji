@@ -290,7 +290,7 @@
         </div>
         <div style="max-width:1100px; margin:0 auto; border:2px solid #06142e; border-radius:16px; padding:38px 24px 32px 24px; display:flex; flex-wrap:wrap; gap:32px; background:#18181a;">
             <div style="flex:1 1 320px; display:flex; flex-direction:column; align-items:center;">
-                <img src="images/mentor.png" alt="Radhe Ajeet Chaudhary" style="width:340px; max-width:95%; border-radius:16px;">
+                <img src="images/fg_person.webp" alt="Radhe Ajeet Chaudhary" style="width:340px; max-width:95%; border-radius:16px;">
                 <div style="margin-top:24px; color:#ff2d2d; font-size:2em; font-weight:900; text-align:center;">
                     Radhe Ajeet Chaudhary
                 </div>
@@ -298,9 +298,9 @@
                     <span style="color:#ff2d2d;">&#9632;</span> Founder of FG ACTING SCHOOL
                 </div>
                 <form action="register.php" method="get" style="margin-top:22px; text-align:center;">
-                    <button type="submit" style="background:#ff6600; color:#fff; font-size:1.2em; font-weight:700; padding:12px 38px; border:none; border-radius:8px; cursor:pointer;">
+                    <!-- <button type="submit" style="background:#ff6600; color:#fff; font-size:1.2em; font-weight:700; padding:12px 38px; border:none; border-radius:8px; cursor:pointer;">
                         ➤ REGISTER NOW
-                    </button>
+                    </button> -->
                 </form>
             </div>
             <div style="flex:2 1 420px; color:#fff; font-size:1.15em; line-height:1.7; font-family:'Mangal',Arial,sans-serif;">
