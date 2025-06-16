@@ -173,7 +173,7 @@
         </div>
     </div>
     <!-- My Acting Work Section -->
-    <div class="container section-card">
+    <div class="container-fluid" style="background:white;">
         <div class="section-title">My Acting Work</div>
         <div class="owl-carousel owl-theme">
             <div class="item">
