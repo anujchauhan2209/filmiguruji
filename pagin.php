@@ -374,17 +374,18 @@
     <!-- End Meet Your Mentor Section -->
 
    <!-- FAQ Section -->
+      <!-- FAQ Section -->
     <div style="background:#fff; padding:60px 0 40px 0;">
         <div style="text-align:center; font-size:2.5em; font-weight:900; color:#101820; letter-spacing:1px; margin-bottom:30px;">
             FREQUENTLY ASKED QUESTIONS
         </div>
-        <div class="container" style="max-width:900px;">
+        <div class="container" >
             <div class="accordion" id="faqAccordion">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeading1">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">
-                            <i class="bi bi-question-circle-fill text-primary me-2"></i>
-                            Acting क्या है? और क्या मैं भी एक प्रोफेशनल Actor बन सकता/सकती हूं.?
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">Acting क्या है? और क्या मैं भी एक प्रोफेशनल Actor बन सकता/सकती हूं.?</span>
                         </button>
                     </h2>
                     <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
@@ -396,110 +397,153 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeading2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                            <i class="bi bi-question-circle-fill text-primary me-2"></i>
-                            मुझे यह "Zero to Hero" LIVE Webinar क्यों अटेंड करनी चाहिए.?
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">मुझे यह "Zero to Hero" LIVE Webinar क्यों अटेंड करनी चाहिए.?</span>
                         </button>
                     </h2>
                     <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             <i class="bi bi-info-circle-fill text-success me-2"></i>
-                            यदि आप, Acting Process को बहुत ही आसानी से और सिंपल तरीके से सीखना चाहते हैं और बिल्कुल जीरो से शुरू करना चाहते हैं तो यह Webinar आपको अटेंड करनी चाहिए.<br>
-                            यदि आपके पास समय नहीं है, पैसा नहीं है किसी Mehgi एक्टिंग स्कूल में दाखिला लेने के लिए, कोई थिएटर क्लास जॉइन करने के लिए तो यह वेबीनार आपके लिए है.<br>
+                            यदि आप, Acting Process को बहुत ही आसानी से और सिंपल तरीके से सीखना चाहते हैं और बिल्कुल जीरो से शुरू करना चाहते हैं तो यह Webinar आपको अटेंड करनी चाहिए.<br><i class="bi bi-info-circle-fill text-success me-2"></i>
+                            यदि आपके पास समय नहीं है, पैसा नहीं है किसी Mehgi एक्टिंग स्कूल में दाखिला लेने के लिए, कोई थिएटर क्लास जॉइन करने के लिए तो यह वेबीनार आपके लिए है.<br><i class="bi bi-info-circle-fill text-success me-2"></i>
                             यदि आप कम इन्वेस्टमेंट में, कम समय में एक प्रोफेशनल Actor बनकर Name, Fame, Money पाना चाहते हैं और अपने माता-पिता का नाम रौशन करना चाहते हैं तो यह वेबीनार आपके लिए है.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeading3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                            <i class="bi bi-question-circle-fill text-primary me-2"></i>
-                            इस "Zero to Hero" Webinar में हम कैसे जुड़ सकते हैं.?
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">इस "Zero to Hero" Webinar में हम कैसे जुड़ सकते हैं.?</span>
                         </button>
                     </h2>
                     <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             <i class="bi bi-info-circle-fill text-success me-2"></i>
-                            हमारा 2 घंटे का “Zero to Hero” Masterclass Zoom App पर होता है।<br>
-                            आप Zoom App Download करें, Account Create कर लें।<br>
-                            Webinar में जुड़ने की Link आपके Email और WhatsApp पर भेज दी जाती है।<br>
+                            हमारा 2 घंटे का “Zero to Hero” Masterclass Zoom App पर होता है।<br><i class="bi bi-info-circle-fill text-success me-2"></i>
+                            आप Zoom App Download करें, Account Create कर लें।<br><i class="bi bi-info-circle-fill text-success me-2"></i>
+                            Webinar में जुड़ने की Link आपके Email और WhatsApp पर भेज दी जाती है।<br><i class="bi bi-info-circle-fill text-success me-2"></i>
                             Webinar Miss न हो, इसके लिए अपने Mobile Phone में Alarm ⏰️ Set कर सकते हैं。
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeading4">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                            <i class="bi bi-question-circle-fill text-primary me-2"></i>
-                            क्या यह Webinar Live होगी और क्या हम इसकी Recording देख सकते हैं.?
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">क्या यह Webinar Live होगी और क्या हम इसकी Recording देख सकते हैं.?</span>
                         </button>
                     </h2>
                     <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             <i class="bi bi-info-circle-fill text-success me-2"></i>
-                            हां, यह Webinar Live होगी और इसकी Recording भी उपलब्ध कराई जाएगी, ताकि आप इसे बाद में भी देख सकें。
+                            यह Webinar Live होती है और इसकी कोई Recording नहीं मिलती और ना ही इसे रिप्ले किया जाता है|
+                            <ul> 
+                                <p>इसलिए Webinar में आने से पहले कुछ ज़रूरी बातों का ध्यान रखें:</p>
+                                <li> Webinar एकांत में सुनें</li>
+                                <li> Webinar के लिए Earphones का इस्तेमाल करें</li>
+                                <li> Notepad और Pen Ready रखें, Notes लेते रहे</li>
+                                <li> 100% पूरा Attend करें</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeading5">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                            <i class="bi bi-question-circle-fill text-primary me-2"></i>
-                            क्या Actor बनने के लिए English समझना और बोलना दोनों आना ही चाहिए तभी आप एक Actor बन सकते है.?
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">क्या Actor बनने के लिए English समझना और बोलना दोनों आना ही चाहिए तभी आप एक Actor बन सकते है.?</span>
                         </button>
                     </h2>
                     <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             <i class="bi bi-info-circle-fill text-success me-2"></i>
-                            नहीं, Actor बनने के लिए English जानना जरूरी नहीं है। यह मास्टरक्लास हिंदी में है और इसमें आपको पूरी जानकारी और मार्गदर्शन हिंदी में दिया जाएगा。
+                            नहीं, Actor बनने के लिए English जानना जरूरी नहीं है। यह मास्टरक्लास हिंदी में है और इसमें आपको पूरी जानकारी और मार्गदर्शन हिंदी में दिया जाएगा。</br>
+                            देखिए, किसी भी Creative Field में एक ही रूल होता है कि आपके अंदर प्रतिभा होनी चाहिए, तभी आप लंबे समय तक काम कर पाएंगे |
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeading6">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                            <i class="bi bi-question-circle-fill text-primary me-2"></i>
-                            क्या मैं इस मास्टरक्लास के लिए अभी रजिस्टर कर सकता/सकती हूं.?
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">इस "Zero to Hero" Webinar में कौन सी Language का इस्तेमाल किया गया है.?</span>
                         </button>
                     </h2>
                     <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             <i class="bi bi-info-circle-fill text-success me-2"></i>
-                            हां, आप अभी रजिस्टर कर सकते हैं। बस नीचे दिए गए "Register Now" बटन पर क्लिक करें और अपनी जानकारी भरें。
+                           इस Webinar में सिंपल हिंदी लैंग्वेज का इस्तेमाल किया गया है और थोड़ी बहुत इंग्लिश जो सबको बड़ी आसानी से समझ आ जाती है|
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeading7">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse7" aria-expanded="false" aria-controls="faqCollapse7">
-                            <i class="bi bi-question-circle-fill text-primary me-2"></i>
-                            इस मास्टरक्लास को अटेंड करने के लिए मुझे क्या-क्या चाहिए होगा.?
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse7" aria-expanded="false" aria-controls="faqCollapse7" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">Acting सीखने के लिए हमें किस तरह का सपोर्ट मिलेगा.?</span>
                         </button>
                     </h2>
                     <div id="faqCollapse7" class="accordion-collapse collapse" aria-labelledby="faqHeading7" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             <i class="bi bi-info-circle-fill text-success me-2"></i>
-                            इस मास्टरक्लास को अटेंड करने के लिए, आपके पास एक अच्छा इंटरनेट कनेक्शन, एक कंप्यूटर या स्मार्टफोन और Zoom ऐप होना चाहिए。
+                            ● Acting Books 📚<br>
+● 30 Day Challenge<br>
+● Actor’s Community<br>
+● Online Acting Course<br>
+● Earn Money from Home Hack .
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeading8">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse8" aria-expanded="false" aria-controls="faqCollapse8">
-                            <i class="bi bi-question-circle-fill text-primary me-2"></i>
-                            क्या यह मास्टरक्लास वाकई में फ्री है.?
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse8" aria-expanded="false" aria-controls="faqCollapse8" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">यह "Zero to Hero" Webinar किसके लिए है.?</span>
                         </button>
                     </h2>
                     <div id="faqCollapse8" class="accordion-collapse collapse" aria-labelledby="faqHeading8" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             <i class="bi bi-info-circle-fill text-success me-2"></i>
-                            हां, यह मास्टरक्लास बिल्कुल फ्री है। लेकिन सीमित समय के लिए और पहले 100 रजिस्ट्रेशनों के लिए ही। इसलिए जल्दी करें और अभी रजिस्टर करें!
+                           यह Webinar हर उस इंसान के लिए है जो एक प्रोफेशनल Actor बनना चाहता है जो क्रिएटिव फील्ड से जुड़ना चाहता है जो अपने क्रिएटिविटी को बूस्ट करना चाहता है|
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading9">
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse9" aria-expanded="false" aria-controls="faqCollapse9" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">क्या यह Webinar हाउसवाइफ और वर्किंग प्रोफेशनल्स भी अटेंड कर सकते हैं.?</span>
+                        </button>
+                    </h2>
+                    <div id="faqCollapse9" class="accordion-collapse collapse" aria-labelledby="faqHeading9" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <i class="bi bi-info-circle-fill text-success me-2"></i>
+                           यदि उनका इंटरेस्ट Acting में है तो, अन्यथा बिल्कुल भी नहीं |</br><i class="bi bi-info-circle-fill text-success me-2"></i>
+मैं फिर कह रहा हूं यह Webinar हर उस इंसान के लिए है जो सच में एक शानदार Actor बनना चाहता है क्योंकि यह Online Webinar है और हिंदी में हैं तो इसे आसानी से हर कोई समझ सकता है और जहां है वहीं से ही Attend कर सकता है|
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading10">
+                        <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse10" aria-expanded="false" aria-controls="faqCollapse10" style="color:#111;">
+                            <span class="me-2 faq-toggle-icon text-primary"><i class="bi bi-plus-lg"></i></span>
+                            <span class="text-dark">क्या आप अभी भी Confused 😕?</span>
+                        </button>
+                    </h2>
+                    <div id="faqCollapse10" class="accordion-collapse collapse" aria-labelledby="faqHeading10" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <i class="bi bi-info-circle-fill text-success me-2"></i>
+                           तो ज़ायदा सोचिए मत, आप बस एक ओपन माइंड और Acting का जुनून लाएं बाकी का काम, यह Masterclass ख़ुद करती है|
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- End FAQ Section -->
+
     <!-- End FAQ Section -->
 
     <!-- Footer Section -->
