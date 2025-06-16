@@ -28,10 +28,11 @@
             margin: 30px auto 0 auto;
             padding: 10px 0;
             width: 60%;
-            border-radius: 6px;
+            border-radius: 12px;
             font-size: 1.4em;
             font-weight: bold;
             border: 3px solid #b3001b;
+            box-shadow: 0 2px 12px #0001;
         }
         .main-content {
             text-align: center;
@@ -61,30 +62,81 @@
         }
         .video-frame {
             border: 4px solid #e53935;
-            border-radius: 10px;
+            border-radius: 12px;
             overflow: hidden;
             width: 480px;
             height: 270px;
             background: #000;
+            box-shadow: 0 2px 12px #0002;
         }
         .register-btn {
-            background: #ff6600;
+            background: linear-gradient(90deg,#e60000,#ff6600);
             color: #fff;
             font-size: 1.3em;
             font-weight: bold;
             padding: 16px 48px;
             border: none;
-            border-radius: 8px;
+            border-radius: 30px;
             cursor: pointer;
             margin-top: 18px;
             transition: background 0.2s;
+            box-shadow: 0 2px 12px #e6000033;
         }
         .register-btn:hover {
-            background: #e65100;
+            background: linear-gradient(90deg,#ff6600,#e60000);
         }
-        @media (max-width: 600px) {
-            .offer-bar, .video-frame { width: 95% !important; }
+        .section-card {
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px #0001;
+            margin-bottom: 32px;
+            padding: 32px 18px 40px 18px;
+        }
+        .section-title {
+            font-size: 2em;
+            font-weight: 900;
+            color: #101820;
+            font-family: Arial,sans-serif;
+            margin-bottom: 18px;
+            text-align: center;
+        }
+        .owl-carousel .item {
+            padding: 8px;
+        }
+        .owl-carousel .item img {
+            border-radius: 10px;
+            box-shadow: 0 2px 12px #0002;
+        }
+        .open-register-modal-btn {
+            transition: box-shadow 0.2s;
+        }
+        .open-register-modal-btn:hover {
+            box-shadow: 0 4px 16px #e6000033;
+        }
+        .faq-section .accordion-button {
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+        .faq-section .accordion-body {
+            background: #f9f9f9;
+            color: #222;
+        }
+        .faq-section .accordion-item {
+            border-radius: 8px;
+            margin-bottom: 8px;
+            overflow: hidden;
+        }
+        .faq-section .accordion-button:not(.collapsed) {
+            background: #ffe6e6;
+            color: #e60000;
+        }
+        @media (max-width: 700px) {
+            .offer-bar, .video-frame { width: 98vw !important; }
             .main-heading { font-size: 1.2em; }
+            .section-card { padding: 18px 2vw 24px 2vw; }
+        }
+        @media (max-width: 400px) {
+            .register-btn { font-size: 1em; padding: 10px 2vw; }
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
@@ -96,19 +148,12 @@
         LIMITED TIME OFFER: JOIN OUR WEBINAR TODAY FOR <span style="color: #ffe600;">RS. 99</span> !
     </div>
     <!-- Main Content with Background Image -->
-    <div style="position:relative; background: url('https://digitalazadi.com/wp-content/uploads/2023/08/5376547-1-scaled.jpg') center center/cover no-repeat; border-radius:18px; margin: 30px auto 0 auto; box-shadow: 0 8px 32px #0003; z-index:1;">
-        
-    <div class="offer-bar">
-        Live 2 Hrs में जानिए "Zero to Hero" बनने की PROVEN Strategy
-    </div>
-        <div style="
-            background:rgba(16,24,43,0.75);
-            border-radius:18px;
-            width:100%;
-            height:100%;
-            padding: 40px 0 40px 0;
-            ">
-            <div class="main-content" style="text-align:center;">
+    <div class="container mt-4">
+        <div class="offer-bar mb-4">
+            Live 2 Hrs में जानिए "Zero to Hero" बनने की PROVEN Strategy
+        </div>
+        <div class="section-card" style="background:rgba(16,24,43,0.75);">
+            <div class="main-content">
                 <div class="main-heading">
                     सीखिए कैसे आप घर बैठे एक सफल <span class="red">ACTOR</span> बन सकते हैं<br>
                     BOLLYWOOD में बिना किसी <span class="red">GODFATHER</span> के IN FILM INDUSTRY
@@ -121,52 +166,49 @@
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/your_video_id_here" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-                <!-- Main Content Register Now button (already handled) -->
-<form action="register.php" method="get" class="open-register-modal-form">
-    <button class="register-btn open-register-modal-btn" type="button">➤ Register Now</button>
-</form>
+                <form class="open-register-modal-form mt-3">
+                    <button class="register-btn open-register-modal-btn" type="button">➤ Register Now</button>
+                </form>
             </div>
         </div>
     </div>
-                   <!-- My Acting Work Section -->
-<div class="container-fluid" style="background:#fff;padding:32px 0 40px 0;">
-    <div style="text-align:center; font-size:1.7em; font-weight:900; color:#ff; font-family:Arial,sans-serif; margin-bottom:18px;">
-        <span style="color:black">My Acting Work</span>
+    <!-- My Acting Work Section -->
+    <div class="container section-card">
+        <div class="section-title">My Acting Work</div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                    <img src="images/Acting-Crasoul-Pic-5.webp" alt="Acting Work 1" style="width:100%; border-radius:8px;">
+                </div>
+            </div>
+            <div class="item">
+                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                    <img src="images/Acting-Crasoul-Pic-6.webp" alt="Acting Work 2" style="width:100%; border-radius:8px;">
+                </div>
+            </div>
+            <div class="item">
+                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                    <img src="images/Acting-Crasoul-Pic-7.webp" alt="Acting Work 3" style="width:100%; border-radius:8px;">
+                </div>
+            </div>
+            <div class="item">
+                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                    <img src="images/Acting-Crasoul-Pic-8.webp" alt="Acting Work 4" style="width:100%; border-radius:8px;">
+                </div>
+            </div>
+            <div class="item">
+                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                    <img src="images/Acting-Crasoul-Pic-9.webp" alt="Acting Work 5" style="width:100%; border-radius:8px;">
+                </div>
+            </div>
+            <div class="item">
+                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                    <img src="images/Acting-Crasoul-Pic-12.webp" alt="Acting Work 6" style="width:100%; border-radius:8px;">
+                </div>
+            </div>
+           </div>
     </div>
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                <img src="images/Acting-Crasoul-Pic-5.webp" alt="Acting Work 1" style="width:100%; border-radius:8px;">
-            </div>
-        </div>
-        <div class="item">
-            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                <img src="images/Acting-Crasoul-Pic-6.webp" alt="Acting Work 2" style="width:100%; border-radius:8px;">
-            </div>
-        </div>
-        <div class="item">
-            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                <img src="images/Acting-Crasoul-Pic-7.webp" alt="Acting Work 3" style="width:100%; border-radius:8px;">
-            </div>
-        </div>
-        <div class="item">
-            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                <img src="images/Acting-Crasoul-Pic-8.webp" alt="Acting Work 4" style="width:100%; border-radius:8px;">
-            </div>
-        </div>
-        <div class="item">
-            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                <img src="images/Acting-Crasoul-Pic-9.webp" alt="Acting Work 5" style="width:100%; border-radius:8px;">
-            </div>
-        </div>
-        <div class="item">
-            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                <img src="images/Acting-Crasoul-Pic-12.webp" alt="Acting Work 6" style="width:100%; border-radius:8px;">
-            </div>
-        </div>
-       </div>
-</div>
-<!-- End My Acting Work Section -->
+    <!-- End My Acting Work Section -->
 
     <!-- Live Masterclass Steps Section -->
     <div style="background:#fff; padding: 40px 0 60px 0;">
@@ -608,7 +650,7 @@
 
 <!-- Register Modal Popup -->
 <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" style="    max-width: 742px;">
+  <div class="modal-dialog modal-dialog-centered modal-lg" style="max-width: 742px;">
     <div class="modal-content" style="border-radius:20px;">
       <div class="modal-body" style="padding:32px 24px 18px 24px; background:#fff; border-radius:20px; text-align:center;">
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position:absolute; right:18px; top:18px;"></button>
@@ -618,7 +660,7 @@
         <div style="font-size:2.2em; font-weight:900; color:#e60000; margin-bottom:18px;">
             Register For Free Webinar
         </div>
-        <form id="popupRegisterForm" action="register.php" method="post" autocomplete="off">
+        <form id="popupRegisterForm" autocomplete="off">
           <div class="row g-3 mb-2">
             <div class="col-12 col-md-6">
               <input type="text" name="first_name" class="form-control" placeholder="आपका प्रथम नाम - First Name" required style="font-size:1.1em; border-radius:8px;">
@@ -650,30 +692,8 @@
 </div>
 <!-- End Register Modal Popup -->
 
-<style>
-@media (max-width: 700px) {
-    #sticky-register button {
-        font-size: 1.2em !important;
-        padding: 10px 10vw !important;
-        width: 90vw !important;
-        min-width: 0 !important;
-    }
-    #registerModal .modal-dialog {
-        max-width: 98vw !important;
-        margin: 0.5rem auto;
-    }
-}
-@media (max-width: 400px) {
-    #sticky-register button {
-        font-size: 1em !important;
-        padding: 10px 2vw !important;
-    }
-    #registerModal .modal-dialog {
-        max-width: 100vw !important;
-        margin: 0.2rem auto;
-    }
-}
-</style>
+<!-- Razorpay JS -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
     <!-- Add Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -703,6 +723,77 @@
         $(document).on('keydown', '.open-register-modal-btn', function(e){
             if (e.key === "Enter" || e.key === " ") {
                 openRegisterModal();
+            }
+        });
+        // Razorpay payment handler
+        function startRazorpayPayment(formData, registration_id) {
+            var options = {
+                "key": "rzp_test_MUIj5XUJjWSuKC",
+                "amount": 9900, // 99 INR in paise
+                "currency": "INR",
+                "name": "Zero to Hero Masterclass",
+                "description": "Webinar Registration",
+                "image": "https://yourdomain.com/logo.png",
+                "handler": function (response){
+                    // On successful payment, update payment_status to 'success'
+                    $.ajax({
+                        url: "register.php",
+                        type: "POST",
+                        data: {
+                            update_payment: 1,
+                            registration_id: registration_id,
+                            razorpay_payment_id: response.razorpay_payment_id
+                        },
+                        success: function(res){
+                            $('#registerModal').modal('hide');
+                            alert("Registration successful! Payment ID: " + response.razorpay_payment_id);
+                        },
+                        error: function(){
+                            alert("Registration failed. Please contact support.");
+                        }
+                    });
+                },
+                "prefill": {
+                    "name": formData.first_name + " " + formData.last_name,
+                    "email": formData.email,
+                    "contact": formData.whatsapp
+                },
+                "theme": {
+                    "color": "#e60000"
+                }
+            };
+            var rzp1 = new Razorpay(options);
+            rzp1.open();
+        }
+
+        // AJAX form submit for popupRegisterForm
+        $('#popupRegisterForm').on('submit', function(e){
+            e.preventDefault();
+            var formData = {};
+            $(this).serializeArray().forEach(function(item){
+                formData[item.name] = item.value;
+            });
+            // Save entry as pending before payment
+            if(formData.first_name && formData.last_name && formData.whatsapp && formData.email) {
+                $.ajax({
+                    url: "register.php",
+                    type: "POST",
+                    data: $.extend({}, formData, { payment_status: "pending" }),
+                    dataType: "json",
+                    success: function(res){
+                        if(res.status === "pending" && res.registration_id) {
+                            // Now start Razorpay payment and pass registration_id
+                            startRazorpayPayment(formData, res.registration_id);
+                        } else {
+                            alert("Could not save registration. Please try again.");
+                        }
+                    },
+                    error: function(){
+                        alert("Registration failed. Please contact support.");
+                    }
+                });
+            } else {
+                alert("Please fill all fields.");
             }
         });
     });
