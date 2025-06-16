@@ -128,32 +128,45 @@
             </div>
         </div>
     </div>
-         <!-- My Acting Work Section -->
-                <div style="background:#fff; margin:48px 0 0 0; padding:32px 0 40px 0;">
-                    <div style="text-align:center; font-size:2.7em; font-weight:900; color:#101820; font-family:Arial,sans-serif; margin-bottom:18px;">
-                        <span style="font-style:italic;">My Acting Work</span>
-                    </div>
-                    <div class="owl-carousel owl-theme" style="max-width:900px; margin:0 auto;">
-                        <div class="item">
-                            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                                <img src="images/acting1.jpg" alt="Acting Work 1" style="width:100%; border-radius:8px;">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                                <img src="images/acting2.jpg" alt="Acting Work 2" style="width:100%; border-radius:8px;">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                                <img src="images/acting3.jpg" alt="Acting Work 3" style="width:100%; border-radius:8px;">
-                            </div>
-                        </div>
-                        <!-- Add more items as needed -->
-                    </div>
-                </div>
-                <!-- End My Acting Work Section -->
-    <!-- end of main content with background image -->
+                   <!-- My Acting Work Section -->
+<div class="container-fluid" style="background:#fff;padding:32px 0 40px 0;">
+    <div style="text-align:center; font-size:1.7em; font-weight:900; color:#ff; font-family:Arial,sans-serif; margin-bottom:18px;">
+        <span style="color:black">My Acting Work</span>
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                <img src="images/Acting-Crasoul-Pic-5.webp" alt="Acting Work 1" style="width:100%; border-radius:8px;">
+            </div>
+        </div>
+        <div class="item">
+            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                <img src="images/Acting-Crasoul-Pic-6.webp" alt="Acting Work 2" style="width:100%; border-radius:8px;">
+            </div>
+        </div>
+        <div class="item">
+            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                <img src="images/Acting-Crasoul-Pic-7.webp" alt="Acting Work 3" style="width:100%; border-radius:8px;">
+            </div>
+        </div>
+        <div class="item">
+            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                <img src="images/Acting-Crasoul-Pic-8.webp" alt="Acting Work 4" style="width:100%; border-radius:8px;">
+            </div>
+        </div>
+        <div class="item">
+            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                <img src="images/Acting-Crasoul-Pic-9.webp" alt="Acting Work 5" style="width:100%; border-radius:8px;">
+            </div>
+        </div>
+        <div class="item">
+            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                <img src="images/Acting-Crasoul-Pic-12.webp" alt="Acting Work 6" style="width:100%; border-radius:8px;">
+            </div>
+        </div>
+       </div>
+</div>
+<!-- End My Acting Work Section -->
 
     <!-- Live Masterclass Steps Section -->
     <div style="background:#fff; padding: 40px 0 60px 0;">
@@ -667,20 +680,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
-                loop:true,
-                margin:24,
-                nav:true,
-                dots:true,
-                responsive:{
-                    0:{ items:1 },
-                    600:{ items:2 },
-                    1000:{ items:3 }
-                }
-            });
-            // Open modal on sticky register button click
-            function openRegisterModal() {
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:24,
+            nav:true,
+            dots:true,
+            responsive:{
+                0:{ items:1 },
+                600:{ items:2 },
+                1000:{ items:4 }
+            }
+        });
+        // Open modal on sticky register button click
+        function openRegisterModal() {
             var modal = new bootstrap.Modal(document.getElementById('registerModal'));
             modal.show();
         }
@@ -692,7 +705,7 @@
                 openRegisterModal();
             }
         });
-        });
+    });
     </script>
 </body>
 </html>
