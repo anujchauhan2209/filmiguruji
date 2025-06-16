@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Zero to Hero Masterclass</title>
+    <!-- Add Bootstrap CSS and Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -84,6 +87,8 @@
             .main-heading { font-size: 1.2em; }
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
 </head>
 <body>
 
@@ -91,14 +96,7 @@
         LIMITED TIME OFFER: JOIN OUR WEBINAR TODAY FOR <span style="color: #ffe600;">RS. 99</span> !
     </div>
     <!-- Main Content with Background Image -->
-    <div style="
-        position:relative;
-        background: url('https://digitalazadi.com/wp-content/uploads/2023/08/5376547-1-scaled.jpg') center center/cover no-repeat;
-        border-radius:18px;
-        margin: 30px auto 0 auto;
-        box-shadow: 0 8px 32px #0003;
-        z-index:1;
-        ">
+    <div style="position:relative; background: url('https://digitalazadi.com/wp-content/uploads/2023/08/5376547-1-scaled.jpg') center center/cover no-repeat; border-radius:18px; margin: 30px auto 0 auto; box-shadow: 0 8px 32px #0003; z-index:1;">
         
     <div class="offer-bar">
         Live 2 Hrs में जानिए "Zero to Hero" बनने की PROVEN Strategy
@@ -129,6 +127,31 @@
             </div>
         </div>
     </div>
+         <!-- My Acting Work Section -->
+                <div style="background:#fff; margin:48px 0 0 0; padding:32px 0 40px 0;">
+                    <div style="text-align:center; font-size:2.7em; font-weight:900; color:#101820; font-family:Arial,sans-serif; margin-bottom:18px;">
+                        <span style="font-style:italic;">My Acting Work</span>
+                    </div>
+                    <div class="owl-carousel owl-theme" style="max-width:900px; margin:0 auto;">
+                        <div class="item">
+                            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                                <img src="images/acting1.jpg" alt="Acting Work 1" style="width:100%; border-radius:8px;">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                                <img src="images/acting2.jpg" alt="Acting Work 2" style="width:100%; border-radius:8px;">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
+                                <img src="images/acting3.jpg" alt="Acting Work 3" style="width:100%; border-radius:8px;">
+                            </div>
+                        </div>
+                        <!-- Add more items as needed -->
+                    </div>
+                </div>
+                <!-- End My Acting Work Section -->
     <!-- end of main content with background image -->
 
     <!-- Live Masterclass Steps Section -->
@@ -261,6 +284,39 @@
                 DON'T JUST TAKE MY WORD FOR IT
             </span>
         </div>
+        <!-- New Video Testimonial Section -->
+        <div style="text-align:center; margin: 40px 0 32px 0;">
+            <span style="font-size:2em; color:#e53935; font-weight:700; font-family:Arial,sans-serif;">
+                <b>See What Our Aspiring Actors have to Say about <i>Us</i></b>
+            </span>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1200px; margin:0 auto 40px auto;">
+            <div style="border:2px solid #2196f3; border-radius:6px; overflow:hidden; width:260px; background:#000;">
+                <img src="images/vishal.jpg" alt="Vishal" style="width:100%; display:block;">
+                <div style="background:#d50032; color:#fff; font-size:1.2em; font-weight:700; text-align:center; padding:6px 0;">
+                    Vishal
+                </div>
+            </div>
+            <div style="border:2px solid #2196f3; border-radius:6px; overflow:hidden; width:260px; background:#000;">
+                <img src="images/avinash.jpg" alt="Avinash" style="width:100%; display:block;">
+                <div style="background:#d50032; color:#fff; font-size:1.2em; font-weight:700; text-align:center; padding:6px 0;">
+                    Avinash
+                </div>
+            </div>
+            <div style="border:2px solid #2196f3; border-radius:6px; overflow:hidden; width:260px; background:#000;">
+                <img src="images/ashwini.jpg" alt="Ashwini" style="width:100%; display:block;">
+                <div style="background:#d50032; color:#fff; font-size:1.2em; font-weight:700; text-align:center; padding:6px 0;">
+                    Ashwini
+                </div>
+            </div>
+            <div style="border:2px solid #2196f3; border-radius:6px; overflow:hidden; width:260px; background:#000;">
+                <img src="images/pratibha.jpg" alt="Pratibha" style="width:100%; display:block;">
+                <div style="background:#d50032; color:#fff; font-size:1.2em; font-weight:700; text-align:center; padding:6px 0;">
+                    Pratibha
+                </div>
+            </div>
+        </div>
+        <!-- End New Video Testimonial Section -->
         <div style="text-align:center; font-size:2em; font-weight:700; color:#222; margin-bottom:38px;">
             Have A Look At <u>What People Have To Speak About Us</u>
         </div>
@@ -322,66 +378,146 @@
         <div style="text-align:center; font-size:2.5em; font-weight:900; color:#101820; letter-spacing:1px; margin-bottom:30px;">
             FREQUENTLY ASKED QUESTIONS
         </div>
-        <div style="max-width:1200px; margin:0 auto;">
-            <div style="background:#06142e; color:#fff; font-size:1.25em; font-weight:700; padding:14px 18px; border-radius:2px 2px 0 0;">
-                Acting क्या है? और क्या मैं भी एक प्रोफेशनल Actor बन सकता/सकती हूं.?
+        <div class="container" style="max-width:900px;">
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq1-heading">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                            <i class="bi bi-question-circle-fill text-primary me-2"></i>
+                            Acting क्या है? और क्या मैं भी एक प्रोफेशनल Actor बन सकता/सकती हूं.?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            जब, चेहरे के हाव-भाव, शरीर की भाषा और आवाज का उपयोग करके भावनाओं और संवादों को व्यक्त किया जाता है तो इसे ही Acting कहा जाता है। फिर, इसके निरंतर अभ्यास से और Right Mentor के मार्गदर्शन में, जब आप खुद को लगातार इम्प्रूव करते रहते हैं तो आप बहुत ही जल्द एक प्रोफेशनल Actor बन जाते हैं。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq2-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                            <i class="bi bi-lightbulb-fill text-warning me-2"></i>
+                            मुझे यह "Zero to Hero" LIVE Webinar क्यों अटेंड करनी चाहिए.?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            इस Webinar में, आपको Acting की दुनिया के बारे में गहराई से जानकारी दी जाएगी, और यह समझाया जाएगा कि कैसे आप भी बिना किसी गॉडफादर के, सिर्फ अपनी मेहनत और सही मार्गदर्शन से Bollywood में कदम रख सकते हैं。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq3-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                            <i class="bi bi-link-45deg text-success me-2"></i>
+                            इस "Zero to Hero" Webinar में हम कैसे जुड़ सकते हैं.?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            आप इस Webinar में Zoom ऐप के माध्यम से जुड़ेंगे, जिसका लिंक आपको रजिस्ट्रेशन के बाद दिया जाएगा。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq4-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                            <i class="bi bi-camera-video-fill text-danger me-2"></i>
+                            क्या यह Webinar Live होगी और क्या हम इसकी Recording देख सकते हैं.?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            हां, यह Webinar Live होगी और इसकी Recording भी उपलब्ध कराई जाएगी, ताकि आप इसे बाद में भी देख सकें。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq5-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                            <i class="bi bi-translate text-info me-2"></i>
+                            क्या Actor बनने के लिए English समझना और बोलना दोनों आना ही चाहिए तभी आप एक Actor बन सकते है.?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            नहीं, Actor बनने के लिए English जानना जरूरी नहीं है। यह मास्टरक्लास हिंदी में है और इसमें आपको पूरी जानकारी और मार्गदर्शन हिंदी में दिया जाएगा。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq6-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                            <i class="bi bi-person-check-fill text-success me-2"></i>
+                            क्या मैं इस मास्टरक्लास के लिए अभी रजिस्टर कर सकता/सकती हूं.?
+                        </button>
+                    </h2>
+                    <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6-heading" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            हां, आप अभी रजिस्टर कर सकते हैं। बस नीचे दिए गए "Register Now" बटन पर क्लिक करें और अपनी जानकारी भरें。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq7-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                            <i class="bi bi-wifi text-primary me-2"></i>
+                            इस मास्टरक्लास को अटेंड करने के लिए मुझे क्या-क्या चाहिए होगा.?
+                        </button>
+                    </h2>
+                    <div id="faq7" class="accordion-collapse collapse" aria-labelledby="faq7-heading" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            इस मास्टरक्लास को अटेंड करने के लिए, आपके पास एक अच्छा इंटरनेट कनेक्शन, एक कंप्यूटर या स्मार्टफोन और Zoom ऐप होना चाहिए。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq8-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                            <i class="bi bi-gift-fill text-warning me-2"></i>
+                            क्या यह मास्टरक्लास वाकई में फ्री है.?
+                        </button>
+                    </h2>
+                    <div id="faq8" class="accordion-collapse collapse" aria-labelledby="faq8-heading" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            हां, यह मास्टरक्लास बिल्कुल फ्री है। लेकिन सीमित समय के लिए और पहले 100 रजिस्ट्रेशनों के लिए ही। इसलिए जल्दी करें और अभी रजिस्टर करें!
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
-                जब, चेहरे के हाव-भाव, शरीर की भाषा और आवाज का उपयोग करके भावनाओं और संवादों को व्यक्त किया जाता है तो इसे ही Acting कहा जाता है। फिर, इसके निरंतर अभ्यास से और Right Mentor के मार्गदर्शन में, जब आप खुद को लगातार इम्प्रूव करते रहते हैं तो आप बहुत ही जल्द एक प्रोफेशनल Actor बन जाते हैं。
-            </div>
-            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
-                &#9633; मुझे यह "Zero to Hero" LIVE Webinar क्यों अटेंड करनी चाहिए.?
-            </div>
-            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
-                इस Webinar में, आपको Acting की दुनिया के बारे में गहराई से जानकारी दी जाएगी, और यह समझाया जाएगा कि कैसे आप भी बिना किसी गॉडफादर के, सिर्फ अपनी मेहनत और सही मार्गदर्शन से Bollywood में कदम रख सकते हैं।
-            </div>
-            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
-                &#9633; इस "Zero to Hero" Webinar में हम कैसे जुड़ सकते हैं.?
-            </div>
-            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
-                आप इस Webinar में Zoom ऐप के माध्यम से जुड़ेंगे, जिसका लिंक आपको रजिस्ट्रेशन के बाद दिया जाएगा।
-            </div>
-            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
-                &#9633; क्या यह Webinar Live होगी और क्या हम इसकी Recording देख सकते हैं.?
-            </div>
-            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
-                हां, यह Webinar Live होगी और इसकी Recording भी उपलब्ध कराई जाएगी, ताकि आप इसे बाद में भी देख सकें।
-            </div>
-            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
-                &#9633; क्या Actor बनने के लिए English समझना और बोलना दोनों आना ही चाहिए तभी आप एक Actor बन सकते है.?
-            </div>
-            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
-                नहीं, Actor बनने के लिए English जानना जरूरी नहीं है। यह मास्टरक्लास हिंदी में है और इसमें आपको पूरी जानकारी और मार्गदर्शन हिंदी में दिया जाएगा।
-            </div>
-            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
-                &#9633; क्या मैं इस मास्टरक्लास के लिए अभी रजिस्टर कर सकता/सकती हूं.?
-            </div>
-            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
-                हां, आप अभी रजिस्टर कर सकते हैं। बस नीचे दिए गए "Register Now" बटन पर क्लिक करें और अपनी जानकारी भरें।
-            </div>
-            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
-                &#9633; इस मास्टरक्लास को अटेंड करने के लिए मुझे क्या-क्या चाहिए होगा.?
-            </div>
-            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
-                इस मास्टरक्लास को अटेंड करने के लिए, आपके पास एक अच्छा इंटरनेट कनेक्शन, एक कंप्यूटर या स्मार्टफोन और Zoom ऐप होना चाहिए।
-            </div>
-            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
-                &#9633; क्या यह मास्टरक्लास वाकई में फ्री है.?
-            </div>
-            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px;">
-                हां, यह मास्टरक्लास बिल्कुल फ्री है। लेकिन सीमित समय के लिए और पहले 100 रजिस्ट्रेशनों के लिए ही। इसलिए जल्दी करें और अभी रजिस्टर करें!
+            <div class="text-center mt-4">
+                <form action="register.php" method="get">
+                    <button type="submit" class="btn btn-warning btn-lg fw-bold">
+                        <i class="bi bi-box-arrow-in-right me-2"></i>
+                        ➤ REGISTER NOW<br>
+                        <span style="font-size:0.8em; font-weight:400;">
+                            TAKE MASTERCLASS IN HINDI TO GROW YOUR ACTING SKILL
+                        </span>
+                    </button>
+                </form>
             </div>
         </div>
     </div>
     <!-- End FAQ Section -->
 
-    <!-- Footer Section -->
-    <div style="background:#101820; padding:40px 0;">
-        <div style="text-align:center; color:#fff; font-size:1.1em; line-height:1.6;">
-            &copy; 2023 Zero to Hero Masterclass. All Rights Reserved.<br>
-            इस वेबसाइट पर दी गई सभी जानकारियाँ केवल शैक्षिक उद्देश्यों के लिए हैं। कृपया कोई भी निर्णय लेने से पहले उचित शोध और परामर्श करें。
-        </div>
-    </div>
-    <!-- End Footer Section -->
+    <!-- Add Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:24,
+                nav:true,
+                dots:true,
+                responsive:{
+                    0:{ items:1 },
+                    600:{ items:2 },
+                    1000:{ items:3 }
+                }
+            });
+        });
+    </script>
 </body>
 </html>
