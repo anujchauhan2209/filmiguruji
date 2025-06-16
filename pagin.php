@@ -502,7 +502,63 @@
     </div>
     <!-- End FAQ Section -->
 
-    <!-- End FAQ Section -->
+    <!-- Footer Section -->
+    <div style="background:#101820; padding:40px 0 80px 0;">
+        <div style="text-align:center; color:#fff; font-size:1.1em; line-height:1.6;">
+            &copy; 2023 Zero to Hero Masterclass. All Rights Reserved.<br>
+            इस वेबसाइट पर दी गई सभी जानकारियाँ केवल शैक्षिक उद्देश्यों के लिए हैं। कृपया कोई भी निर्णय लेने से पहले उचित शोध और परामर्श करें。
+        </div>
+        <div style="text-align:center; color:#ffe600; font-size:1.1em; margin-top:18px;">
+            Designed & Developed by FG Team | <a href="register.php" style="color:#ff6600; text-decoration:underline;">Register Now</a>
+        </div>
+    </div>
+    <!-- End Footer Section -->
+
+    <!-- Sticky Register Now Button (UI like the image, fixed width and responsive) -->
+<div id="sticky-register" style="
+    position:fixed;
+    left:0; right:0; bottom:0;
+    z-index:9999;
+    background: #03142a;
+    border-top: 4px solid #e53935;
+    box-shadow: 0 -2px 12px #0005;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0;
+    min-height: 70px;
+">
+    <form action="register.php" method="get" style="margin:0; width:100%; display:flex; justify-content:center;">
+        <button type="submit" style="
+                background: #ff5c1a;
+    border: 1px solid #e1cfcf;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 179px;
+    font-weight: 800;
+        ">
+            <i class="bi bi-chevron-right" style="font-size:1.3em;"></i> Register Now
+        </button>
+    </form>
+</div>
+<!-- End Sticky Register Now Button -->
+
+<style>
+@media (max-width: 700px) {
+    #sticky-register button {
+        font-size: 1.2em !important;
+        padding: 10px 10vw !important;
+        width: 90vw !important;
+        min-width: 0 !important;
+    }
+}
+@media (max-width: 400px) {
+    #sticky-register button {
+        font-size: 1em !important;
+        padding: 10px 2vw !important;
+    }
+}
+</style>
 
     <!-- Add Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
