@@ -146,20 +146,6 @@
             max-width:1200px; 
             margin:0 auto 40px auto;
         }
-        .open-register-modal-btn-1{
-        background: #ff6600;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 750;
-    padding: 0px 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 16px #0003;
-    border-bottom: 4px solid #e53935;
-    display: inline-block;
-    cursor: pointer;
-    
-}
         .bonus-images-box-img{
             width:340px; 
             max-width:95%; 
@@ -172,47 +158,6 @@
             font-family:'Mangal',Arial,sans-serif; 
             font-weight:400;
         }
-        .big-box{
-            display:flex; 
-            justify-content:center; 
-            margin:38px 0 0 0;
-        }
-        .big-box-1{
-            background:#111; 
-            border:2px solid #e53935; 
-            border-radius:16px; 
-            padding:32px 24px 24px 24px; 
-            max-width:700px; 
-            width:100%; 
-            text-align:center;
-        }
-        @media only screen and (max-width: 600px) {
-  .big-box-1{
-            background:#111; 
-            border:2px solid #e53935; 
-            border-radius:16px; 
-            padding:22px 14px 14px 14px; 
-            max-width:600px; 
-            width:90%; 
-            text-align:center;
-        }
-        .open-register-modal-btn-1{
-                background: #ff6600;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 750;
-    padding: 0px 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 16px #0003;
-    border-bottom: 4px solid #e53935;
-    display: inline-block;
-    cursor: pointer;
-    width: 90%;
-        }
-}
-
-
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
@@ -351,7 +296,7 @@
             <img class="bonus-images-box-img" src="images/Acting-school-Bonus-3.webp" alt="Bonus 3" >
         </div>
         <div style="display:flex; justify-content:center; margin-top:18px;">
-            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff5c1a; color:#fff; font-size: 1em; font-weight:700; padding:10px 25px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
+            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff5c1a; color:#fff; font-size:1em; font-weight:700; padding:10px 25px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
         <span style="font-size:1.1em;">&#10148; DON'T MISS OUT – REGISTER NOW</span><br>
         <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
             🎁 ₹1499 की मास्टरक्लास अब सिर्फ ₹99 में!
@@ -392,8 +337,8 @@
                 </span>
             </div>
         </div>
-        <div class="big-box">
-            <div class="big-box-1" >
+        <div style="display:flex; justify-content:center; margin:38px 0 0 0;">
+            <div style="background:#111; border:2px solid #e53935; border-radius:16px; padding:32px 24px 24px 24px; max-width:700px; width:100%; text-align:center;">
                 <div style="color:#ff3c00; font-size:2em; font-weight:700; margin-bottom:10px;">
                     अभी रजिस्टर करें, यदि आप MOVIE, WEBSERIES, TV और AD FILMS में काम करना चाहते हैं。
                 </div>
@@ -412,13 +357,13 @@
    <!-- Testimonial Section -->
     <div style="background:#fff; padding:50px 0 30px 0;">
         <div style="text-align:center; margin-bottom:18px;">
-            <span style="background:#ff2d2d; color:#fff; font-size:1.5em; font-weight:800; padding:2px 10px; border-radius:4px;">
+            <span style="background:#ff2d2d; color:#fff; font-size:2em; font-weight:900; padding:2px 10px; border-radius:4px;">
                 DON'T JUST TAKE MY WORD FOR IT
             </span>
         </div>
         <!-- New Video Testimonial Section -->
         <div style="text-align:center; margin: 40px 0 32px 0;">
-            <span style="font-size:1.5em; color:#e53935; font-weight:600; font-family:Arial,sans-serif;">
+            <span style="font-size:2em; color:#e53935; font-weight:700; font-family:Arial,sans-serif;">
                 <b>See What Our Aspiring Actors have to Say about <i>Us</i></b>
             </span>
         </div>
@@ -459,7 +404,7 @@
             <img src="images/image.png" alt="Review 4" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
         </div>
         <div style="display:flex; justify-content:center; margin-top:18px;">
-            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff2d2d; color:#fff; font-size:1em; font-weight:750; padding:0px 25px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
+            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff2d2d; color:#fff; font-size:1.5em; font-weight:750; padding:0px 25px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
         <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW!</span><br>
         <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
             (FOR 99 <span style="font-size:1.1em;">🤩</span>)
@@ -498,7 +443,7 @@
             </div>
         </div>
         <div style="display:flex; justify-content:center; margin-top:38px;">
-            <div class="open-register-modal-btn open-register-modal-btn-1" tabindex="0" role="button" >
+            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff6600; color:#fff; font-size:1.5rem; font-weight:750; padding:0px 20px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; border-bottom:4px solid #e53935; display:inline-block; cursor:pointer;">
                 <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW! &nbsp; (FOR FREE <span style="font-size:1.1em;">🤩</span>)</span>
             </div>
         </div>
