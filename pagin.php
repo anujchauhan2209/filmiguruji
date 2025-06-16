@@ -86,29 +86,50 @@
     </style>
 </head>
 <body>
+
     <div class="top-bar">
         LIMITED TIME OFFER: JOIN OUR WEBINAR TODAY FOR <span style="color: #ffe600;">RS. 99</span> !
     </div>
+    <!-- Main Content with Background Image -->
+    <div style="
+        position:relative;
+        background: url('https://digitalazadi.com/wp-content/uploads/2023/08/5376547-1-scaled.jpg') center center/cover no-repeat;
+        border-radius:18px;
+        margin: 30px auto 0 auto;
+        box-shadow: 0 8px 32px #0003;
+        z-index:1;
+        ">
+        
     <div class="offer-bar">
         Live 2 Hrs में जानिए "Zero to Hero" बनने की PROVEN Strategy
     </div>
-    <div class="main-content">
-        <div class="main-heading">
-            सीखिए कैसे आप घर बैठे एक सफल <span class="red">ACTOR</span> बन सकते हैं<br>
-            BOLLYWOOD में बिना किसी <span class="red">GODFATHER</span> के IN FILM INDUSTRY
-        </div>
-        <div class="sub-heading">
-            Learn <span class="bold">Film Industry Entry Model In Hindi</span> By Radhe.
-        </div>
-        <div class="video-container">
-            <div class="video-frame">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/your_video_id_here" frameborder="0" allowfullscreen></iframe>
+        <div style="
+            background:rgba(16,24,43,0.75);
+            border-radius:18px;
+            width:100%;
+            height:100%;
+            padding: 40px 0 40px 0;
+            ">
+            <div class="main-content" style="text-align:center;">
+                <div class="main-heading">
+                    सीखिए कैसे आप घर बैठे एक सफल <span class="red">ACTOR</span> बन सकते हैं<br>
+                    BOLLYWOOD में बिना किसी <span class="red">GODFATHER</span> के IN FILM INDUSTRY
+                </div>
+                <div class="sub-heading">
+                    Learn <span class="bold">Film Industry Entry Model In Hindi</span> By Radhe.
+                </div>
+                <div class="video-container">
+                    <div class="video-frame">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/your_video_id_here" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <form action="register.php" method="get">
+                    <button class="register-btn" type="submit">➤ Register Now</button>
+                </form>
             </div>
         </div>
-        <form action="register.php" method="get">
-            <button class="register-btn" type="submit">➤ Register Now</button>
-        </form>
-    </div> <!-- end of .main-content -->
+    </div>
+    <!-- end of main content with background image -->
 
     <!-- Live Masterclass Steps Section -->
     <div style="background:#fff; padding: 40px 0 60px 0;">
@@ -326,3 +347,39 @@
             </div>
             <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
                 &#9633; क्या Actor बनने के लिए English समझना और बोलना दोनों आना ही चाहिए तभी आप एक Actor बन सकते है.?
+            </div>
+            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
+                नहीं, Actor बनने के लिए English जानना जरूरी नहीं है। यह मास्टरक्लास हिंदी में है और इसमें आपको पूरी जानकारी और मार्गदर्शन हिंदी में दिया जाएगा।
+            </div>
+            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
+                &#9633; क्या मैं इस मास्टरक्लास के लिए अभी रजिस्टर कर सकता/सकती हूं.?
+            </div>
+            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
+                हां, आप अभी रजिस्टर कर सकते हैं। बस नीचे दिए गए "Register Now" बटन पर क्लिक करें और अपनी जानकारी भरें।
+            </div>
+            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
+                &#9633; इस मास्टरक्लास को अटेंड करने के लिए मुझे क्या-क्या चाहिए होगा.?
+            </div>
+            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
+                इस मास्टरक्लास को अटेंड करने के लिए, आपके पास एक अच्छा इंटरनेट कनेक्शन, एक कंप्यूटर या स्मार्टफोन और Zoom ऐप होना चाहिए।
+            </div>
+            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
+                &#9633; क्या यह मास्टरक्लास वाकई में फ्री है.?
+            </div>
+            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px;">
+                हां, यह मास्टरक्लास बिल्कुल फ्री है। लेकिन सीमित समय के लिए और पहले 100 रजिस्ट्रेशनों के लिए ही। इसलिए जल्दी करें और अभी रजिस्टर करें!
+            </div>
+        </div>
+    </div>
+    <!-- End FAQ Section -->
+
+    <!-- Footer Section -->
+    <div style="background:#101820; padding:40px 0;">
+        <div style="text-align:center; color:#fff; font-size:1.1em; line-height:1.6;">
+            &copy; 2023 Zero to Hero Masterclass. All Rights Reserved.<br>
+            इस वेबसाइट पर दी गई सभी जानकारियाँ केवल शैक्षिक उद्देश्यों के लिए हैं। कृपया कोई भी निर्णय लेने से पहले उचित शोध और परामर्श करें。
+        </div>
+    </div>
+    <!-- End Footer Section -->
+</body>
+</html>
