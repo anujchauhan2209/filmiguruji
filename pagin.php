@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zero to Hero Masterclass</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #10182b;
+            color: #fff;
+        }
+        .top-bar {
+            background: #b3001b;
+            color: #fff;
+            text-align: center;
+            padding: 8px 0;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .offer-bar {
+            background: #fff;
+            color: #b3001b;
+            text-align: center;
+            margin: 30px auto 0 auto;
+            padding: 10px 0;
+            width: 60%;
+            border-radius: 6px;
+            font-size: 1.4em;
+            font-weight: bold;
+            border: 3px solid #b3001b;
+        }
+        .main-content {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .main-heading {
+            font-size: 2.2em;
+            font-weight: bold;
+            line-height: 1.3;
+        }
+        .main-heading .red {
+            color: #e53935;
+        }
+        .main-heading .bold {
+            font-weight: bold;
+        }
+        .sub-heading {
+            font-size: 1.2em;
+            margin: 18px 0 10px 0;
+            color: #ffe600;
+            font-style: italic;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .video-frame {
+            border: 4px solid #e53935;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 480px;
+            height: 270px;
+            background: #000;
+        }
+        .register-btn {
+            background: #ff6600;
+            color: #fff;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 16px 48px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 18px;
+            transition: background 0.2s;
+        }
+        .register-btn:hover {
+            background: #e65100;
+        }
+        @media (max-width: 600px) {
+            .offer-bar, .video-frame { width: 95% !important; }
+            .main-heading { font-size: 1.2em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        LIMITED TIME OFFER: JOIN OUR WEBINAR TODAY FOR <span style="color: #ffe600;">RS. 99</span> !
+    </div>
+    <div class="offer-bar">
+        Live 2 Hrs में जानिए "Zero to Hero" बनने की PROVEN Strategy
+    </div>
+    <div class="main-content">
+        <div class="main-heading">
+            सीखिए कैसे आप घर बैठे एक सफल <span class="red">ACTOR</span> बन सकते हैं<br>
+            BOLLYWOOD में बिना किसी <span class="red">GODFATHER</span> के IN FILM INDUSTRY
+        </div>
+        <div class="sub-heading">
+            Learn <span class="bold">Film Industry Entry Model In Hindi</span> By Radhe.
+        </div>
+        <div class="video-container">
+            <div class="video-frame">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/your_video_id_here" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <form action="register.php" method="get">
+            <button class="register-btn" type="submit">➤ Register Now</button>
+        </form>
+    </div> <!-- end of .main-content -->
+
+    <!-- Live Masterclass Steps Section -->
+    <div style="background:#fff; padding: 40px 0 60px 0;">
+        <div style="text-align:center; margin-bottom: 38px;">
+            <span style="font-size:2.8em; font-family:'Mangal',Arial,sans-serif; color:#222; font-weight:400;">
+                इस <span style="color:#ff3c00;">Live Masterclass</span> में सीखिए
+            </span>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1100px; margin:0 auto;">
+            <!-- Step 1 -->
+            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
+                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #1</div>
+                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Your Acting Journey</div>
+                <div style="font-size:1em; color:#fff;">
+                    कैसे आप घर बैठे अपनी Acting जर्नी को शुरू कर सकते हैं वह भी बहुत ही अफोर्डेबल प्राइस पर बिना लाखों रुपये खर्च किए。
+                </div>
+            </div>
+            <!-- Step 2 -->
+            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
+                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #2</div>
+                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Best Acting Tools & Techniques</div>
+                <div style="font-size:1em; color:#fff;">
+                    कैसे आप Best Acting टेक्निक्स का बेहतरीन तरीके से इस्तेमाल करके, एक Versatile और एक शानदार ACTOR बन सकते हैं。
+                </div>
+            </div>
+            <!-- Step 3 -->
+            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
+                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #3</div>
+                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Audition Hack</div>
+                <div style="font-size:1em; color:#fff;">
+                    कैसे आप Audition के लिए अप्लाई करें, कैसे आप उसे Confidently क्रैक करें。
+                </div>
+            </div>
+            <!-- Step 4 -->
+            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
+                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #4</div>
+                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Film Industry Entry Blueprint</div>
+                <div style="font-size:1em; color:#fff;">
+                    कैसे आप Film Industry में अपना लिंक क्रिएट कर सकते हैं और अपना इनफ्लुएंस बिल्ड कर सकते हैं。
+                </div>
+            </div>
+            <!-- Step 5 -->
+            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
+                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #5</div>
+                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Casting Director's Hack Blueprint</div>
+                <div style="font-size:1em; color:#fff;">
+                    कैसे आप Casting Director’s को अप्रोच कर उन्हें इंप्रेस करेंगे और Bollywood में एंट्री करके, अपने सपनों को पूरा करेंगे, उसका पूरा Blueprint आपके साथ शेयर किया जाएगा。
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Steps Section -->
+
+    <!-- Bonuses Section -->
+    <div style="background:#101820; padding: 50px 0 30px 0;">
+        <div style="text-align:center; margin-bottom:38px;">
+            <span style="font-size:2em; color:#fff; font-family:'Mangal',Arial,sans-serif; font-weight:400;">
+                इस <span style="color:#ff3c00;">MASTERCLASS WEBINAR</span> में आपको,
+                <span style="color:#ff3c00;">5 BONUSES</span> मिलेंगे, जो आपकी जिंदगी बदल देंगे !
+            </span>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1200px; margin:0 auto 40px auto;">
+            <img src="images/bonus1.png" alt="Bonus 1" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
+            <img src="images/bonus2.png" alt="Bonus 2" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
+            <img src="images/bonus3.png" alt="Bonus 3" style="width:340px; max-width:95%; border-radius:10px; box-shadow:0 8px 32px #0003;">
+        </div>
+        <div style="display:flex; justify-content:center; margin-top:18px;">
+            <div style="background:#ff5c1a; color:#fff; font-size:1.5em; font-weight:700; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003;">
+                <span style="font-size:1.1em;">&#10148; DON'T MISS OUT – REGISTER NOW</span><br>
+                <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
+                    🎁 ₹1499 की मास्टरक्लास अब सिर्फ ₹99 में!
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- End Bonuses Section -->
+
+    <!-- Are You Facing Section -->
+    <div style="background:#fff; padding:40px 0 0 0;">
+        <div style="text-align:center; font-size:2.5em; font-weight:700; color:#101820; letter-spacing:1px; margin-bottom:30px;">
+            ARE YOU <span style="color:#e53935;">FACING</span>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:center; gap:18px;">
+            <div style="background:#111; color:#fff; border-radius:10px; width:480px; max-width:95%; padding:14px 18px; font-size:1.2em; text-align:left; display:flex; align-items:center; gap:10px;">
+                <span style="font-size:1.3em;">😳</span>
+                <span>Acting ki Sahi Training & Guidance.</span>
+            </div>
+            <div style="background:#111; color:#fff; border-radius:10px; width:480px; max-width:95%; padding:14px 18px; font-size:1.2em; text-align:left; display:flex; align-items:center; gap:10px;">
+                <span style="font-size:1.3em;">😳</span>
+                <span>Upcoming Audition Updates</span>
+            </div>
+            <div style="background:#111; color:#fff; border-radius:10px; width:480px; max-width:95%; padding:14px 18px; font-size:1.2em; text-align:left; display:flex; align-items:center; gap:10px;">
+                <span style="font-size:1.3em;">😳</span>
+                <span>Confused Between "Theatre & Camera" Acting.</span>
+            </div>
+            <div style="background:#111; color:#fff; border-radius:10px; width:480px; max-width:95%; padding:14px 18px; font-size:1.2em; text-align:left; display:flex; align-items:center; gap:10px;">
+                <span style="font-size:1.3em;">😳</span>
+                <span>Getting Stereo type Roles & No call backs after Audition.</span>
+            </div>
+        </div>
+        <div style="display:flex; justify-content:center; margin:38px 0 0 0;">
+            <div style="background:#f4431c; color:#fff; font-size:1.4em; font-weight:700; padding:18px 24px; border-radius:8px; text-align:center; max-width:600px; width:100%;">
+                <span style="font-size:1.2em;">😟 NO TIME FOR JOINING EXPENSIVE ACTING SCHOOL ARE THEATER INSTITUTE.</span><br>
+                <span style="font-size:0.85em; font-weight:400; display:block; margin-top:6px;">
+                    I'M READY TO BOOST MY ACTING CARRIER BOOK YOUR FREE SPOT
+                </span>
+            </div>
+        </div>
+        <div style="display:flex; justify-content:center; margin:38px 0 0 0;">
+            <div style="background:#111; border:2px solid #e53935; border-radius:16px; padding:32px 24px 24px 24px; max-width:700px; width:100%; text-align:center;">
+                <div style="color:#ff3c00; font-size:2em; font-weight:700; margin-bottom:10px;">
+                    अभी रजिस्टर करें, यदि आप MOVIE, WEBSERIES, TV और AD FILMS में काम करना चाहते हैं。
+                </div>
+                <form action="register.php" method="get" style="margin-top:10px;">
+                    <button type="submit" style="background:#e53935; color:#fff; font-size:1.3em; font-weight:700; padding:14px 48px; border:none; border-radius:8px; cursor:pointer;">
+                        BOOK YOUR SPOT NOW
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div style="height:40px;"></div>
+    </div>
+    <!-- End Are You Facing Section -->
+
+    <!-- Testimonial Section -->
+    <div style="background:#fff; padding:50px 0 30px 0;">
+        <div style="text-align:center; margin-bottom:18px;">
+            <span style="background:#ff2d2d; color:#fff; font-size:2em; font-weight:900; padding:2px 10px; border-radius:4px;">
+                DON'T JUST TAKE MY WORD FOR IT
+            </span>
+        </div>
+        <div style="text-align:center; font-size:2em; font-weight:700; color:#222; margin-bottom:38px;">
+            Have A Look At <u>What People Have To Speak About Us</u>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1200px; margin:0 auto 40px auto;">
+            <img src="images/review1.png" alt="Review 1" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
+            <img src="images/review2.png" alt="Review 2" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
+            <img src="images/review3.png" alt="Review 3" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
+            <img src="images/review4.png" alt="Review 4" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
+        </div>
+        <div style="display:flex; justify-content:center; margin-top:18px;">
+            <div style="background:#ff2d2d; color:#fff; font-size:2em; font-weight:900; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003;">
+                <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW!</span><br>
+                <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
+                    (FOR 99 <span style="font-size:1.1em;">🤩</span>)
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonial Section -->
+
+    <!-- Meet Your Mentor Section -->
+    <div style="background:#18181a; padding:60px 0 60px 0;">
+        <div style="text-align:center; margin-bottom:38px;">
+            <span style="background:#06142e; color:#fff; font-size:2.2em; font-weight:900; padding:4px 28px; border-radius:8px; border:2px solid #06142e;">
+                Meet <span style="color:#ff2d2d;">Your Mentor</span>
+            </span>
+        </div>
+        <div style="max-width:1100px; margin:0 auto; border:2px solid #06142e; border-radius:16px; padding:38px 24px 32px 24px; display:flex; flex-wrap:wrap; gap:32px; background:#18181a;">
+            <div style="flex:1 1 320px; display:flex; flex-direction:column; align-items:center;">
+                <img src="images/mentor.png" alt="Radhe Ajeet Chaudhary" style="width:340px; max-width:95%; border-radius:16px;">
+                <div style="margin-top:24px; color:#ff2d2d; font-size:2em; font-weight:900; text-align:center;">
+                    Radhe Ajeet Chaudhary
+                </div>
+                <div style="color:#fff; font-size:1.1em; margin-top:6px; text-align:center;">
+                    <span style="color:#ff2d2d;">&#9632;</span> Founder of FG ACTING SCHOOL
+                </div>
+                <form action="register.php" method="get" style="margin-top:22px; text-align:center;">
+                    <button type="submit" style="background:#ff6600; color:#fff; font-size:1.2em; font-weight:700; padding:12px 38px; border:none; border-radius:8px; cursor:pointer;">
+                        ➤ REGISTER NOW
+                    </button>
+                </form>
+            </div>
+            <div style="flex:2 1 420px; color:#fff; font-size:1.15em; line-height:1.7; font-family:'Mangal',Arial,sans-serif;">
+                Hello Aspiring Actors, नमस्ते, मेरा नाम “राधे अजीत चौधरी” है 8 साल का मुझे Theatre का Experience है और इन 8 सालों में, मैंने बहुत सारी Theatre Plays किए हैं, YouTube Projects किए, बहुत सारे किरदारों को मैंने जीवंत किया है बहुत सारी थिएटर प्ले में जैसे: Jaise Karni Vaise Bharni, Selfie le le, My best Friend, Fauji, The King, Aadhe Adhure इत्यादि और जिन किरदारों को मैंने जीवंत किया, आसानी किया जैसे: Ashwathama the Curse Warrior, Toba Take Singh, Tuglaki Farmaan, Kaala Suite Anchor in Aadhe Adhure इत्यादि। और Saadhna TV और Disha TV पर भी में आ चुका हूं। तो इस मास्टर क्लास में जो आप सीखने वाले हैं वह सब कुछ मैंने एक ऐसे टीचर से सीखा है जिन्होंने खुद Sahara One, Star Plus और Colors चैनल में As a Creative Head काम किया है। इसके अलावा मेरे गुरु के बहुत सारे दोस्त आज Bollywood Film industry में एक नामचीन हस्ती है कोई Actor है कोई Writer है कोई Director है कोई Casting Director है तो कोई “STAR” है। तो इसलिए यह मास्टर क्लास किसी की कमी पर मिस मत कीजिएगा क्योंकि यह आपके लिए लाइफ चेंजिंग साबित हो सकती है इसलिए तुरंत ही रजिस्टर करिए और अपना स्लॉट बुक कर लीजिए क्योंकि पहले 100 लोगों के लिए बिल्कुल FREE है। तो इस “Zero to Hero” Masterclass वेबिनार में, मैं वह सारे Secrets , तो सारे Hacks शेयर करने वाला हूं जिससे आप तुरंत ही वहीं से ही अपनी ACTING जर्नी की शुरू करके Films, Webseries और TV में As an ACTOR काम करना शुरू कर देंगे। तो जानना चाहते हैं कैसे तो Book Now पर क्लिक करके जल्दी से रजिस्टर करिए और मिलिए मुझसे LIVE WEBINAR में !
+            </div>
+        </div>
+        <div style="display:flex; justify-content:center; margin-top:38px;">
+            <div style="background:#ff6600; color:#fff; font-size:2em; font-weight:900; padding:18px 38px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; border-bottom:4px solid #e53935; display:inline-block;">
+                <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW! &nbsp; (FOR FREE <span style="font-size:1.1em;">🤩</span>)</span>
+            </div>
+        </div>
+    </div>
+    <!-- End Meet Your Mentor Section -->
+
+    <!-- FAQ Section -->
+    <div style="background:#fff; padding:60px 0 40px 0;">
+        <div style="text-align:center; font-size:2.5em; font-weight:900; color:#101820; letter-spacing:1px; margin-bottom:30px;">
+            FREQUENTLY ASKED QUESTIONS
+        </div>
+        <div style="max-width:1200px; margin:0 auto;">
+            <div style="background:#06142e; color:#fff; font-size:1.25em; font-weight:700; padding:14px 18px; border-radius:2px 2px 0 0;">
+                Acting क्या है? और क्या मैं भी एक प्रोफेशनल Actor बन सकता/सकती हूं.?
+            </div>
+            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
+                जब, चेहरे के हाव-भाव, शरीर की भाषा और आवाज का उपयोग करके भावनाओं और संवादों को व्यक्त किया जाता है तो इसे ही Acting कहा जाता है। फिर, इसके निरंतर अभ्यास से और Right Mentor के मार्गदर्शन में, जब आप खुद को लगातार इम्प्रूव करते रहते हैं तो आप बहुत ही जल्द एक प्रोफेशनल Actor बन जाते हैं。
+            </div>
+            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
+                &#9633; मुझे यह "Zero to Hero" LIVE Webinar क्यों अटेंड करनी चाहिए.?
+            </div>
+            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
+                इस Webinar में, आपको Acting की दुनिया के बारे में गहराई से जानकारी दी जाएगी, और यह समझाया जाएगा कि कैसे आप भी बिना किसी गॉडफादर के, सिर्फ अपनी मेहनत और सही मार्गदर्शन से Bollywood में कदम रख सकते हैं।
+            </div>
+            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
+                &#9633; इस "Zero to Hero" Webinar में हम कैसे जुड़ सकते हैं.?
+            </div>
+            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
+                आप इस Webinar में Zoom ऐप के माध्यम से जुड़ेंगे, जिसका लिंक आपको रजिस्ट्रेशन के बाद दिया जाएगा।
+            </div>
+            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
+                &#9633; क्या यह Webinar Live होगी और क्या हम इसकी Recording देख सकते हैं.?
+            </div>
+            <div style="background:#fff; color:#222; font-size:1.1em; padding:18px 18px 18px 18px; border-bottom:1px solid #06142e;">
+                हां, यह Webinar Live होगी और इसकी Recording भी उपलब्ध कराई जाएगी, ताकि आप इसे बाद में भी देख सकें।
+            </div>
+            <div style="background:#06142e; color:#fff; font-size:1.1em; padding:14px 18px; border-bottom:1px solid #fff;">
+                &#9633; क्या Actor बनने के लिए English समझना और बोलना दोनों आना ही चाहिए तभी आप एक Actor बन सकते है.?
