@@ -1,0 +1,944 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #10182b;
+    color: #fff;
+}
+.top-bar {
+    background: #b3001b;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.offer-bar {
+    background: #fff;
+    color: #b3001b;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    padding: 10px 0;
+    width: 60%;
+    border-radius: 12px;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: 3px solid #b3001b;
+    box-shadow: 0 2px 12px #0001;
+}
+.main-content {
+    text-align: center;
+    margin-top: 30px;
+}
+.main-heading {
+    font-size: 2.2em;
+    font-weight: bold;
+    line-height: 1.3;
+}
+.main-heading .red {
+    color: #e53935;
+}
+.main-heading .bold {
+    font-weight: bold;
+}
+.sub-heading {
+    font-size: 1.2em;
+    margin: 18px 0 10px 0;
+    color: #ffe600;
+    font-style: italic;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.video-frame {
+    border: 4px solid #e53935;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 793PX;
+    height: 446PX;
+    background: #000;
+    box-shadow: 0 2px 12px #0002;
+}
+.fixed_pos{
+    position:relative;
+}
+.fixed_position {
+    position: absolute;
+    border: 1px solid white;
+    padding: 25px;
+    background: black;
+    border-radius: 10px;
+    width: 62%;
+    left: 19%;
+    height: 140px;
+    font-size: 22px;
+    margin-top:2%;
+}
+.fixed_position p {
+    margin: 0;
+    line-height: 1.4;
+}
+@media (max-width: 700px) {
+    .fixed_position p {
+        font-size: 1em;
+        text-align: left;
+    }
+}
+@media (max-width: 400px) {
+    .fixed_position p {
+        font-size: 0.95em;
+    }
+}
+.acting_work{
+    padding-top:7%;
+}
+.register-btn {
+    background: linear-gradient(90deg,#e60000,#ff6600);
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 16px 48px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 18px;
+    transition: background 0.2s;
+    box-shadow: 0 2px 12px #e6000033;
+}
+.register-btn:hover {
+    background: linear-gradient(90deg,#ff6600,#e60000);
+}
+.section-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px #0001;
+    margin-bottom: 32px;
+    padding: 32px 18px 40px 18px;
+}
+.section-title {
+    font-size: 2em;
+    font-weight: 900;
+    color: #101820;
+    font-family: Arial,sans-serif;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.owl-carousel .item {
+    padding: 8px;
+}
+.owl-carousel .item img {
+    border-radius: 10px;
+    box-shadow: 0 2px 12px #0002;
+}
+.open-register-modal-btn {
+    transition: box-shadow 0.2s;
+}
+.open-register-modal-btn:hover {
+    box-shadow: 0 4px 16px #e6000033;
+}
+.faq-section .accordion-button {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.faq-section .accordion-body {
+    background: #f9f9f9;
+    color: #222;
+}
+.faq-section .accordion-item {
+    border-radius: 8px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.faq-section .accordion-button:not(.collapsed) {
+    background: #ffe6e6;
+    color: #e60000;
+}
+.abcd{
+    background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:400px; padding:28px 18px; text-align:center;
+}
+@media (max-width:600px){
+   
+}
+@media (max-width:768px){
+    .fixed_position {
+        position: absolute;
+        border: 1px solid white;
+        padding: 25px;
+        background: black;
+        border-radius: 10px;
+        width: 100%;
+        left: 1%;
+        height: 195px;
+        font-size: 22px;
+        margin-top: 2%;
+    }
+    .acting_work {
+        padding-top: 20%;
+    }
+    .abcd{
+        background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:345px; padding:28px 18px; text-align:center;
+    }
+}
+@media (max-width: 700px) {
+    .offer-bar, .video-frame { width: 90vw !important; }
+    .main-heading { font-size: 1.2em; }
+    .section-card { padding: 18px 2vw 24px 2vw; }
+}
+@media (max-width: 400px) {
+    .register-btn { font-size: 1em; padding: 10px 2vw; }
+}
+.bonus-images-box{
+    display:flex; 
+    flex-wrap:wrap; 
+    justify-content:center; 
+    gap:32px 28px; 
+    max-width:1200px; 
+    margin:0 auto 40px auto;
+}
+.open-register-modal-btn-1{
+    background: #ff6600;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 750;
+    padding: 0px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 16px #0003;
+    border-bottom: 4px solid #e53935;
+    display: inline-block;
+    cursor: pointer;
+}
+.bonus-images-box-img{
+    width:340px; 
+    max-width:95%; 
+    border-radius:10px; 
+    box-shadow:0 8px 32px #0003;
+}
+.bonus-section{
+    font-size:2.5rem; 
+    color:#fff; 
+    font-family:'Mangal',Arial,sans-serif; 
+    font-weight:700;
+}
+.big-box{
+    display:flex; 
+    justify-content:center; 
+    margin:38px 0 0 0;
+}
+.big-box-1{
+    background:#111; 
+    border:2px solid #e53935; 
+    border-radius:16px; 
+    padding:32px 24px 24px 24px; 
+    max-width:700px; 
+    width:100%; 
+    text-align:center;
+}
+@media only screen and (max-width: 600px) {
+    .big-box-1{
+        background:#111; 
+        border:2px solid #e53935; 
+        border-radius:16px; 
+        padding:22px 14px 14px 14px; 
+        max-width:600px; 
+        width:90%; 
+        text-align:center;
+    }
+    .open-register-modal-btn-1{
+        background: #ff6600;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 750;
+        padding: 0px 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 4px 16px #0003;
+        border-bottom: 4px solid #e53935;
+        display: inline-block;
+        cursor: pointer;
+        width: 90%;
+    }
+}
+@media (max-width: 991px) {
+    .main-heading { font-size: 1.3em; }
+    .sub-heading { font-size: 1em; }
+    .offer-bar { font-size: 1.1em; }
+    .section-title { font-size: 1.3em; }
+    .bonus-section { font-size: 1.3em; }
+    .video-frame { width: 98vw !important; height: 220px !important; }
+    .abcd { width: 95vw !important; font-size: 1em; }
+    .big-box-1 { font-size: 1em; }
+    .bonus-images-box-img { width: 95vw !important; }
+    .faq-section .accordion-button { font-size: 1em; }
+    .faq-section .accordion-body { font-size: 0.98em; }
+    .fixed_position { font-size: 1em; width: 98vw !important; left: 0 !important; }
+    .acting_work { padding-top: 10% !important; }
+    .register-btn, .open-register-modal-btn, .open-register-modal-btn-1 {
+        font-size: 1em !important;
+        padding: 10px 2vw !important;
+    }
+    .big-box-1, .big-box { max-width: 98vw !important; }
+    .bonus-images-box { gap: 12px 8px !important; }
+    .container, .section-card { padding-left: 2vw !important; padding-right: 2vw !important; }
+}
+@media (max-width: 600px) {
+    .main-heading { font-size: 1em; }
+    .sub-heading { font-size: 0.8em; }
+    .offer-bar { font-size: 0.9em; }
+    .section-title { font-size: 0.95em; }
+    .bonus-section { font-size: 1em; }
+    .video-frame { width: 98vw !important; height: 120px !important; }
+    .abcd { width: 98vw !important; font-size: 0.85em; }
+    .big-box-1 { font-size: 0.85em; }
+    .bonus-images-box-img { width: 98vw !important; }
+    .faq-section .accordion-button { font-size: 0.85em; }
+    .faq-section .accordion-body { font-size: 0.8em; }
+    .fixed_position { font-size: 0.85em; width: 98vw !important; left: 0 !important; }
+    .acting_work {
+        padding-top: 5% !important;
+        margin-top: 45px;
+    }
+    .register-btn, .open-register-modal-btn, .open-register-modal-btn-1 {
+        font-size: 0.8em !important;
+        padding: 6px 2vw !important;
+    }
+    .big-box-1, .big-box { max-width: 98vw !important; }
+    .bonus-images-box { gap: 6px 3px !important; }
+    .container, .section-card { padding-left: 1vw !important; padding-right: 1vw !important; }
+    .top-bar { font-size: 0.9em; }
+}
+@media (max-width: 400px) {
+    .main-heading { font-size: 0.95em; }
+    .sub-heading { font-size: 0.9em; }
+    .offer-bar { font-size: 0.95em; }
+    .section-title { font-size: 1em; }
+    .bonus-section { font-size: 1em; }
+    .video-frame { width: 99vw !important; height: 110px !important; }
+    .abcd { width: 99vw !important; font-size: 0.95em; }
+    .big-box-1 { font-size: 0.95em; }
+    .bonus-images-box-img { width: 99vw !important; }
+    .faq-section .accordion-button { font-size: 0.95em; }
+    .faq-section .accordion-body { font-size: 0.92em; }
+    .fixed_position { font-size: 0.92em; width: 99vw !important; left: 0 !important; }
+    .acting_work { padding-top: 2% !important; }
+    .register-btn, .open-register-modal-btn, .open-register-modal-btn-1 {
+        font-size: 0.92em !important;
+        padding: 6px 1vw !important;
+    }
+    .big-box-1, .big-box { max-width: 99vw !important; }
+    .bonus-images-box { gap: 4px 2px !important; }
+    .container, .section-card { padding-left: 0.5vw !important; padding-right: 0.5vw !important; }
+    .top-bar { font-size: 0.95em; }
+}
+@media (max-width: 600px) {
+    .register-btn, .open-register-modal-btn, .open-register-modal-btn-1 {
+        padding: 8px !important;
+        font-size: 0.5em !important;
+    }
+}
+.steps-section-bg {
+    background: #fff;
+}
+.steps-section-padding {
+    padding: 40px 0 60px 0;
+}
+.steps-section-title {
+    text-align: center;
+    margin-bottom: 38px;
+}
+.steps-section-heading {
+    font-size: 3rem;
+    font-family: 'Mangal', Arial, sans-serif;
+    color: #222;
+    font-weight: 600;
+}
+.steps-section-highlight {
+    color: #ff3c00;
+}
+.steps-section-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px 28px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.steps-step-number {
+    font-size: 3em;
+    font-weight: 900;
+    color: #ff3c00;
+    margin-bottom: 8px;
+}
+.steps-step-title {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.steps-step-desc {
+    font-size: 1em;
+    color: #fff;
+}
+/* Bonuses Section */
+.bonuses-section-bg {
+    background: #101820;
+}
+.bonuses-section-padding {
+    padding: 50px 0 30px 0;
+}
+.bonuses-section-title {
+    text-align: center;
+    margin-bottom: 38px;
+}
+.bonuses-section-highlight {
+    color: #ff3c00;
+}
+.bonuses-section-register-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.bonuses-section-register-btn {
+    background: #ff5c1a;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 16px #0003;
+    cursor: pointer;
+}
+.bonuses-section-register-btn-main {
+    font-size: 2.5em;
+}
+.bonuses-section-register-btn-sub {
+    font-size: 1.5em;
+    font-weight: 400;
+    display: block;
+    margin-top: 6px;
+}
+
+/* Are You Facing Section */
+.areyou-section-bg {
+    background: #fff;
+}
+.areyou-section-padding {
+    padding: 40px 0 0 0;
+}
+.areyou-section-title {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #101820;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.areyou-section-highlight {
+    color: #e53935;
+}
+.areyou-section-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.areyou-section-list-item {
+    background: #111;
+    color: #fff;
+    border-radius: 10px;
+    width: 800px;
+    max-width: 95%;
+    padding: 14px 18px;
+    font-size: 2em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.areyou-section-list-emoji {
+    font-size: 1.3em;
+}
+.areyou-section-warning-row {
+    display: flex;
+    justify-content: center;
+    margin: 38px 0 0 0;
+}
+.areyou-section-warning {
+    background: #f4431c;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+.areyou-section-warning-main {
+    font-size: 2.2em;
+}
+.areyou-section-warning-sub {
+    font-size: 1.4em;
+    font-weight: 400;
+    display: block;
+    margin-top: 6px;
+}
+.areyou-section-register-title {
+    color: #ff3c00;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.areyou-section-register-form {
+    margin-top: 10px;
+}
+.areyou-section-bottom-space {
+    height: 40px;
+}
+
+/* Testimonial Section */
+.testimonial-section-bg {
+    background: #fff;
+}
+.testimonial-section-padding {
+    padding: 50px 0 30px 0;
+}
+.testimonial-section-title {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.testimonial-section-title-highlight {
+    background: #ff2d2d;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 2px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.testimonial-section-heading-row {
+    text-align: center;
+    margin: 40px 0 32px 0;
+}
+.testimonial-section-heading {
+    font-size: 2.5em;
+    color: #e53935;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+.testimonial-video-box {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px #0002;
+    background: #000;
+}
+.testimonial-video-frame {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.testimonial-video-frame iframe {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%; border: 0;
+}
+.testimonial-section-subtitle {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 38px;
+    margin-top: 2rem;
+}
+.testimonial-section-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px 28px;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+}
+.testimonial-section-img {
+    width: 540px;
+    max-width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 8px 32px #0002;
+}
+.testimonial-section-register-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.testimonial-section-register-btn {
+    background: #ff2d2d;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 750;
+    padding: 0px 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 16px #0003;
+    cursor: pointer;
+}
+.testimonial-section-register-btn-main {
+    font-size: 2.1em;
+}
+.testimonial-section-register-btn-sub {
+    font-size: 1.8em;
+    font-weight: 400;
+    display: block;
+    margin-top: 6px;
+}
+
+/* Meet Your Mentor Section */
+.mentor-section-bg {
+    background: #18181a;
+}
+.mentor-section-padding {
+    padding: 60px 0 60px 0;
+}
+.mentor-section-title-row {
+    text-align: center;
+    margin-bottom: 38px;
+}
+.mentor-section-title {
+    background: #06142e;
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 900;
+    padding: 4px 28px;
+    border-radius: 8px;
+    border: 2px solid #06142e;
+    display: inline-block;
+}
+.mentor-section-title-highlight {
+    color: #ff2d2d;
+}
+.mentor-section-card {
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 2px solid #06142e;
+    border-radius: 16px;
+    padding: 38px 24px 32px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    background: #18181a;
+}
+.mentor-section-img-col {
+    flex: 1 1 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mentor-section-img {
+    width: 355px;
+    max-width: 131%;
+    border-radius: 16px;
+}
+.mentor-section-name {
+    margin-top: 24px;
+    color: #ff2d2d;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+}
+.mentor-section-role {
+    color: #fff;
+    font-size: 1.1em;
+    margin-top: 6px;
+    text-align: center;
+}
+.mentor-section-form {
+    margin-top: 22px;
+    text-align: center;
+}
+.mentor-section-bio {
+    flex: 2 1 420px;
+    color: #fff;
+    font-size: 1.15em;
+    line-height: 1.7;
+    font-family: 'Mangal', Arial, sans-serif;
+}
+.mentor-section-register-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+.mentor-section-register-btn {
+    /* inherits open-register-modal-btn-1 styles */
+}
+.mentor-section-register-btn-main {
+    font-size: 1.1em;
+}
+
+/* FAQ Section */
+.faq-section-bg {
+    background: #fff;
+}
+.faq-section-padding {
+    padding: 60px 0 40px 0;
+}
+.faq-section-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #101820;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* --- Responsive Fixes for Mobile --- */
+@media (max-width: 600px) {
+    .main-heading {
+        font-size: 1.1em !important;
+        padding: 0 12px;
+        word-break: break-word;
+    }
+    .offer-bar {
+        font-size: 1em !important;
+        width: 100% !important;
+        padding: 10px 12px !important;
+        margin-top: 12px !important;
+    }
+    .section-card {
+        padding: 12px 12px 18px 12px !important;
+        margin-bottom: 18px !important;
+    }
+    .video-frame {
+        width: 100% !important;
+        height: 180px !important;
+        min-height: 120px !important;
+        border-width: 2px !important;
+    }
+    .register-btn, .open-register-modal-btn, .open-register-modal-btn-1 {
+        font-size: 0.95em !important;
+        padding: 10px 12px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
+    }
+    .fixed_position {
+        font-size: 0.95em !important;
+        width: 100% !important;
+        left: 0 !important;
+        padding: 10px 12px !important;
+        height: auto !important;
+        min-height: 80px !important;
+    }
+    .steps-section-heading {
+        font-size: 1.5em !important;
+        padding: 0 12px;
+    }
+    .steps-section-flex {
+        flex-direction: column !important;
+        gap: 18px 0 !important;
+        align-items: center !important;
+    }
+    .abcd {
+        width: 100% !important;
+        font-size: 1em !important;
+        padding: 18px 12px !important;
+        max-width: 100% !important;
+    }
+    .bonus-images-box {
+        gap: 10px 0 !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .bonus-images-box-img {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .bonuses-section-title,
+    .bonuses-section-register-row {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+    .areyou-section-title {
+        font-size: 1.5em !important;
+        padding: 0 12px;
+    }
+    .areyou-section-list-item {
+        width: 100% !important;
+        font-size: 1.1em !important;
+        padding: 10px 12px !important;
+        max-width: 100% !important;
+    }
+    .areyou-section-warning {
+        font-size: 1em !important;
+        padding: 10px 12px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .big-box-1 {
+        font-size: 1em !important;
+        padding: 14px 12px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .testimonial-section-heading {
+        font-size: 1.2em !important;
+        padding: 0 12px;
+    }
+    .testimonial-section-img {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .testimonial-section-images {
+        gap: 10px 0 !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .mentor-section-title {
+        font-size: 1.2em !important;
+        padding: 2px 8px !important;
+    }
+    .mentor-section-card {
+        flex-direction: column !important;
+        gap: 18px !important;
+        padding: 18px 12px !important;
+    }
+    .mentor-section-img {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .mentor-section-bio {
+        font-size: 1em !important;
+        padding: 0 12px !important;
+    }
+    .faq-section-title {
+        font-size: 1.1em !important;
+        padding: 0 12px;
+    }
+    .faq-section-bg, .faq-section-padding {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .container, .section-card {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+    .open-register-modal-btn, .open-register-modal-btn-1 {
+        width: 100% !important;
+        max-width: 100% !important;
+        font-size: 1em !important;
+        padding: 10px 12px !important;
+    }
+    .testimonial-section-register-btn,
+    .mentor-section-register-btn {
+        width: 100% !important;
+        max-width: 100% !important;
+        font-size: 1em !important;
+        padding: 10px 12px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-heading,
+    .steps-section-heading,
+    .areyou-section-title,
+    .faq-section-title {
+        font-size: 1em !important;
+    }
+    .register-btn, .open-register-modal-btn, .open-register-modal-btn-1 {
+        font-size: 0.9em !important;
+        padding: 8px 6px !important;
+    }
+    .abcd, .areyou-section-list-item, .big-box-1, .mentor-section-img, .testimonial-section-img {
+        font-size: 0.95em !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 10px 6px !important;
+    }
+    .fixed_position {
+        font-size: 0.9em !important;
+        padding: 8px 6px !important;
+    }
+    .testimonial-section-heading {
+        font-size: 1em !important;
+    }
+    .mentor-section-title {
+        font-size: 1em !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-card {
+        background: rgba(16,24,43,0.95) !important;
+    }
+}
+@media (max-width: 600px) {
+    .abcd {
+        width: 100% !important;
+        font-size: 1em !important;
+        padding: 18px 12px !important;
+        max-width: 94% !important;
+    }
+}
+@media (max-width: 600px) {
+    .open-register-modal-btn, .open-register-modal-btn-1 {
+        width: 97% !important;
+        max-width: 100% !important;
+        font-size: 13px !important;
+        padding: 10px 12px !important;
+    }
+}
+@media (max-width: 600px) {
+    .areyou-section-warning {
+        font-size: 8px !important;
+        padding: 10px 12px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .areyou-section-padding {
+    padding: 40px 6px 0 8px;
+    }
+   
+    .areyou-section-register-title {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.testimonial-section-title-highlight {
+    background: #ff2d2d;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 800;
+    padding: 2px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+}
+@media (max-width: 600px) {
+    .testimonial-section-images {
+        gap: 10px 0 !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 17px;
+    }
+}
+.mentor-section-card {
+    max-width: 1428px;
+    margin: 0 auto;
+    border: 2px solid #06142e;
+    border-radius: 16px;
+    padding: 38px 24px 32px 24px;
+    display: flex
+;
+    flex-wrap: wrap;
+    gap: 32px;
+    background: #18181a;
+}
+.mentor-section-bio {
+    flex: 2 1 420px;
+    color: #fff;
+    font-size: 1.15em;
+    line-height: 1.7;
+    font-family: 'Mangal', Arial, sans-serif;
+    text-align: justify;
+}

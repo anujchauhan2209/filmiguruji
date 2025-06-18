@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zero to Hero Masterclass Webinar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #10182b;
+            color: #fff;
+            font-family: 'Montserrat', Arial, sans-serif;
+        }
+        .top-bar {
+            background: #c10c26;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px 0;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        .promo-box {
+            background: #fff;
+            color: #c10c26;
+            border-radius: 12px;
+            border: 3px solid #c10c26;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px 10px;
+            margin-top: 24px;
+            text-align: center;
+        }
+        .main-content h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0;
+            line-height: 1.2;
+        }
+        .highlight { color: #c10c26; }
+        .sub-highlight { color: #ff2e2e; }
+        .subtitle {
+            color: #ffd600;
+            font-style: italic;
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        .register-btn, .register-btn-lg {
+            background: #ff6600;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+            padding: 14px 36px;
+            margin: 20px auto 0 auto;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            transition: background 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .register-btn-lg {
+            font-size: 1.3rem;
+            padding: 18px 48px;
+        }
+        .register-btn:hover, .register-btn-lg:hover {
+            background: #e65100;
+        }
+        .section-title {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 32px 0 18px 0;
+            text-align: center;
+        }
+        .step-card {
+            background: #181f36;
+            border: 2px solid #c10c26;
+            border-radius: 12px;
+            color: #fff;
+            padding: 18px 12px;
+            margin-bottom: 18px;
+            min-height: 180px;
+        }
+        .step-card .step-title {
+            color: #ff2e2e;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .bonus-card {
+            background: #fff;
+            border-radius: 12px;
+            border: 2px solid #c10c26;
+            color: #c10c26;
+            padding: 12px 8px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+        .bonus-card img {
+            width: 100%;
+            max-width: 120px;
+            margin-bottom: 8px;
+        }
+        .facing-list {
+            background: #181f36;
+            border-radius: 12px;
+            padding: 18px 12px;
+            margin-bottom: 18px;
+        }
+        .facing-list .badge {
+            background: #ff2e2e;
+            color: #fff;
+            margin-right: 8px;
+        }
+        .testimonial-card {
+            background: #fff;
+            color: #222;
+            border-radius: 12px;
+            padding: 14px 10px;
+            margin-bottom: 14px;
+            font-size: 1rem;
+        }
+        .mentor-section {
+            background: #181f36;
+            border-radius: 12px;
+            padding: 24px 16px;
+            margin-bottom: 32px;
+        }
+        .mentor-img {
+            width: 120px;
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
+        .faq-section {
+            background: #181f36;
+            border-radius: 12px;
+            padding: 24px 16px;
+            margin-bottom: 32px;
+        }
+        .footer {
+            background: #181f36;
+            color: #fff;
+            text-align: center;
+            font-size: 0.95rem;
+            padding: 18px 0 8px 0;
+        }
+        .footer a {
+            color: #ffd600;
+            text-decoration: underline;
+        }
+        .dev-bar {
+            background: #c10c26;
+            color: #fff;
+            text-align: center;
+            font-size: 1rem;
+            padding: 8px 0;
+        }
+        /* Responsive tweaks */
+        @media (max-width: 767.98px) {
+            .main-content h1 { font-size: 1.2rem; }
+            .promo-box { font-size: 1rem; }
+            .section-title { font-size: 1.1rem; }
+            .register-btn-lg { font-size: 1.1rem; padding: 12px 18px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        LIMITED TIME OFFER: JOIN OUR WEBINAR TODAY FOR <span>RS. 99</span> !
+    </div>
+    <div class="container-fluid px-2">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="promo-box mt-3">
+                    Live 2 Hrs में जानिए "Zero to Hero" बनने की PROVEN Strategy
+                </div>
+            </div>
+        </div>
+        <div class="main-content text-center mt-4">
+            <h1>
+                सीखिए कैसे आप घर बैठे एक सफल <span class="highlight">ACTOR</span> बन सकते हैं<br>
+                BOLLYWOOD में बिना किसी <span class="sub-highlight">GODFATHER</span> के IN FILM INDUSTRY
+            </h1>
+            <div class="subtitle mb-3">
+                Learn Film Industry Entry Model In Hindi By Radhe.
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="ratio ratio-16x9 border border-3 border-danger rounded-3 bg-black mb-4">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="register-btn-lg mb-2">I'M READY TO BOOST MY ACTING SKILLS 10 TIMES! (SECURE YOUR SPOT FOR FREE)</a>
+            <div class="bg-dark text-warning fw-bold py-2 px-3 rounded-3 my-2 d-inline-block">
+                DIGITAL MARKETING HINDI WEBINAR LIVE <span class="text-danger">*Only limited 1st batch few spots for this batch are remaining!*</span>
+            </div>
+        </div>
+
+        <div class="section-title mt-5">इस Live Masterclass में सीखिए</div>
+        <div class="row g-3 justify-content-center">
+            <div class="col-12 col-md-6 col-lg-2">
+                <div class="step-card">
+                    <div class="step-title">Step #1</div>
+                    Acting Journey<br> कैसे शुरू करें?
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <div class="step-card">
+                    <div class="step-title">Step #2</div>
+                    Best Acting Tools & Techniques<br> जानिए Industry Secrets
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <div class="step-card">
+                    <div class="step-title">Step #3</div>
+                    Audition Hack<br> कैसे पाएं सही मौका?
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <div class="step-card">
+                    <div class="step-title">Step #4</div>
+                    Film Industry का Blueprint<br> Entry का सही तरीका
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <div class="step-card">
+                    <div class="step-title">Step #5</div>
+                    Casting Director's Hack Blueprint<br> कैसे बनाएं पहचान?
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title mt-5">
+            इस <span class="text-warning">MASTERCLASS WEBINAR</span> में आपको, <span class="text-danger">5 BONUSES</span> मिलेंगे, जो आपकी जिंदगी बदल देंगे !
+        </div>
+        <div class="row g-3 justify-content-center">
+            <div class="col-12 col-md-4 col-lg-2">
+                <div class="bonus-card">
+                    <img src="https://via.placeholder.com/120x80?text=Bonus+1" alt="Bonus 1">
+                    3 LIFE CHANGING EBOOK BUNDLE
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2">
+                <div class="bonus-card">
+                    <img src="https://via.placeholder.com/120x80?text=Bonus+2" alt="Bonus 2">
+                    ACTING AUDITION CRACK BLUEPRINT
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2">
+                <div class="bonus-card">
+                    <img src="https://via.placeholder.com/120x80?text=Bonus+3" alt="Bonus 3">
+                    ACTING JOURNEY PROCESS & BOLLYWOOD ENTRY
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="#" class="register-btn-lg my-3">▶ DON'T MISS OUT — REGISTER NOW<br><span class="fw-normal" style="font-size:1rem;">(₹1499 की मास्टरक्लास अब सिर्फ ₹99 में)</span></a>
+        </div>
+
+        <div class="section-title mt-5">ARE YOU <span class="text-danger">FACING</span></div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <div class="facing-list">
+                    <div class="mb-2"><span class="badge">•</span> Acting ki Sahi Training & Guidance.</div>
+                    <div class="mb-2"><span class="badge">•</span> Upcoming Audition Updates</div>
+                    <div class="mb-2"><span class="badge">•</span> Confused Between "Theatre & Camera" Acting.</div>
+                    <div class="mb-2"><span class="badge">•</span> Getting Stereo type Roles & No call backs after Audition.</div>
+                </div>
+                <div class="bg-danger text-white fw-bold py-2 px-3 rounded-3 my-2 text-center">
+                    NO TIME FOR JOINING EXPENSIVE ACTING SCHOOL OR THEATER INSTITUTE.<br>
+                    <a href="#" class="register-btn mt-2">I'M READY TO BOOST MY ACTING CAREER! BOOK YOUR FREE SPOT</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-3">
+            <span class="bg-dark text-warning rounded-3 px-3 py-2 d-inline-block">जो भी एक्टिंग करियर में फंसे, पिट गए, MOVIE, WEBSERIES, TV और AD FILMS में काम करना चाहते हैं.</span>
+        </div>
+
+        <div class="section-title mt-5 text-danger">DON'T JUST TAKE MY WORD FOR IT!</div>
+        <div class="section-title mb-2" style="font-size:1.2rem;">See What Our Aspiring Actors have to Say about <span class="text-danger">Us</span></div>
+        <div class="row g-3 justify-content-center">
+            <div class="col-6 col-md-3">
+                <div class="ratio ratio-1x1 rounded-3 overflow-hidden">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="ratio ratio-1x1 rounded-3 overflow-hidden">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="ratio ratio-1x1 rounded-3 overflow-hidden">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="ratio ratio-1x1 rounded-3 overflow-hidden">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="section-title mt-4" style="font-size:1.1rem;">Have A Look At What People Have To Speak About Us</div>
+        <div class="row g-3 justify-content-center">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="testimonial-card">
+                    <b>Arvind Sharma</b><br>
+                    very good knowledge giving sandeep bhansal sir <br> thank u for giving precious knowledge
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="testimonial-card">
+                    <b>Arvind Sharma</b><br>
+                    very good knowledge giving sandeep bhansal sir <br> thank u for giving precious knowledge
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="testimonial-card">
+                    <b>Arvind Sharma</b><br>
+                    very good knowledge giving sandeep bhansal sir <br> thank u for giving precious knowledge
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="testimonial-card">
+                    <b>Arvind Sharma</b><br>
+                    very good knowledge giving sandeep bhansal sir <br> thank u for giving precious knowledge
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-3">
+            <a href="#" class="register-btn-lg">REGISTER THE WORKSHOP NOW!<br>(FOR 99 ₹)</a>
+        </div>
+
+        <div class="section-title mt-5">Meet <span class="text-warning">Your Mentor</span></div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="mentor-section text-center">
+                    <img src="https://via.placeholder.com/120x160?text=Mentor" class="mentor-img mb-2" alt="Mentor">
+                    <h4 class="text-warning">Radhe Ajeet Chaudhary</h4>
+                    <div class="mb-2 text-white-50">Founder of FG ACTING SCHOOL</div>
+                    <div class="text-start" style="font-size:1rem;">
+                        Hello Aspiring Actors, <br>
+                        ...existing code... <br>
+                        (Add your mentor's introduction and message here)
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#" class="register-btn-lg">रजिस्टर करने के लिए यहाँ क्लिक करें</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title mt-5">FREQUENTLY ASKED QUESTIONS</div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="faq-section">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item bg-dark text-white">
+                            <h2 class="accordion-header" id="faq1">
+                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                                    Acting सीखने के लिए क्या कोई Experience जरूरी है?
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    नहीं, यह Masterclass सभी के लिए है。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-dark text-white">
+                            <h2 class="accordion-header" id="faq2">
+                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                    क्या यह Webinar Live होगा या Recorded?
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    यह Webinar Live होगा。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-dark text-white">
+                            <h2 class="accordion-header" id="faq3">
+                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                                    Webinar की Link और Details कब और कैसे मिलेंगी?
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    रजिस्ट्रेशन के बाद आपको Email और WhatsApp पर Details मिलेंगी。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-dark text-white">
+                            <h2 class="accordion-header" id="faq4">
+                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                                    क्या यह Masterclass सभी के लिए है?
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    हाँ, यह Masterclass Beginners और Experienced दोनों के लिए है。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-dark text-white">
+                            <h2 class="accordion-header" id="faq5">
+                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                                    अगर Webinar Miss हो जाए तो क्या Recording मिलेगी?
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    हाँ, आपको Recording मिलेगी。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-dark text-white">
+                            <h2 class="accordion-header" id="faq6">
+                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                                    और भी सवाल हैं? Confused?
+                                </button>
+                            </h2>
+                            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    आप हमसे Contact कर सकते हैं。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer mt-4">
+            &copy;2023 Zero to Hero Masterclass. All Rights Reserved.<br>
+            <span>यह वेबसाइट किसी भी प्रकार से FG ACTING SCHOOL से संबन्धित नहीं है।</span>
+            <br>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+        </div>
+        <div class="dev-bar">
+            Designed & Developed by FG IT Team | Enquire: <a href="mailto:info@fg.com" class="text-warning">info@fg.com</a>
+        </div>
+        <div class="text-center py-3">
+            <a href="#" class="register-btn-lg">Register Now</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

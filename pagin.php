@@ -2,220 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zero to Hero Masterclass</title>
     <!-- Add Bootstrap CSS and Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #10182b;
-            color: #fff;
-        }
-        .top-bar {
-            background: #b3001b;
-            color: #fff;
-            text-align: center;
-            padding: 8px 0;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
-        .offer-bar {
-            background: #fff;
-            color: #b3001b;
-            text-align: center;
-            margin: 30px auto 0 auto;
-            padding: 10px 0;
-            width: 60%;
-            border-radius: 12px;
-            font-size: 1.4em;
-            font-weight: bold;
-            border: 3px solid #b3001b;
-            box-shadow: 0 2px 12px #0001;
-        }
-        .main-content {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .main-heading {
-            font-size: 2.2em;
-            font-weight: bold;
-            line-height: 1.3;
-        }
-        .main-heading .red {
-            color: #e53935;
-        }
-        .main-heading .bold {
-            font-weight: bold;
-        }
-        .sub-heading {
-            font-size: 1.2em;
-            margin: 18px 0 10px 0;
-            color: #ffe600;
-            font-style: italic;
-        }
-        .video-container {
-            display: flex;
-            justify-content: center;
-            margin: 30px 0;
-        }
-        .video-frame {
-            border: 4px solid #e53935;
-            border-radius: 12px;
-            overflow: hidden;
-            width: 480px;
-            height: 270px;
-            background: #000;
-            box-shadow: 0 2px 12px #0002;
-        }
-        .register-btn {
-            background: linear-gradient(90deg,#e60000,#ff6600);
-            color: #fff;
-            font-size: 1.3em;
-            font-weight: bold;
-            padding: 16px 48px;
-            border: none;
-            border-radius: 30px;
-            cursor: pointer;
-            margin-top: 18px;
-            transition: background 0.2s;
-            box-shadow: 0 2px 12px #e6000033;
-        }
-        .register-btn:hover {
-            background: linear-gradient(90deg,#ff6600,#e60000);
-        }
-        .section-card {
-            background: #fff;
-            border-radius: 18px;
-            box-shadow: 0 4px 24px #0001;
-            margin-bottom: 32px;
-            padding: 32px 18px 40px 18px;
-        }
-        .section-title {
-            font-size: 2em;
-            font-weight: 900;
-            color: #101820;
-            font-family: Arial,sans-serif;
-            margin-bottom: 18px;
-            text-align: center;
-        }
-        .owl-carousel .item {
-            padding: 8px;
-        }
-        .owl-carousel .item img {
-            border-radius: 10px;
-            box-shadow: 0 2px 12px #0002;
-        }
-        .open-register-modal-btn {
-            transition: box-shadow 0.2s;
-        }
-        .open-register-modal-btn:hover {
-            box-shadow: 0 4px 16px #e6000033;
-        }
-        .faq-section .accordion-button {
-            font-size: 1.1em;
-            font-weight: 600;
-        }
-        .faq-section .accordion-body {
-            background: #f9f9f9;
-            color: #222;
-        }
-        .faq-section .accordion-item {
-            border-radius: 8px;
-            margin-bottom: 8px;
-            overflow: hidden;
-        }
-        .faq-section .accordion-button:not(.collapsed) {
-            background: #ffe6e6;
-            color: #e60000;
-        }
-        @media (max-width: 700px) {
-            .offer-bar, .video-frame { width: 90vw !important; }
-            .main-heading { font-size: 1.2em; }
-            .section-card { padding: 18px 2vw 24px 2vw; }
-        }
-        @media (max-width: 400px) {
-            .register-btn { font-size: 1em; padding: 10px 2vw; }
-        }
-        .bonus-images-box{
-            display:flex; 
-            flex-wrap:wrap; 
-            justify-content:center; 
-            gap:32px 28px; 
-            max-width:1200px; 
-            margin:0 auto 40px auto;
-        }
-        .open-register-modal-btn-1{
-        background: #ff6600;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 750;
-    padding: 0px 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 16px #0003;
-    border-bottom: 4px solid #e53935;
-    display: inline-block;
-    cursor: pointer;
-    
-}
-        .bonus-images-box-img{
-            width:340px; 
-            max-width:95%; 
-            border-radius:10px; 
-            box-shadow:0 8px 32px #0003;
-        }
-        .bonus-section{
-            font-size:1.5rem; 
-            color:#fff; 
-            font-family:'Mangal',Arial,sans-serif; 
-            font-weight:400;
-        }
-        .big-box{
-            display:flex; 
-            justify-content:center; 
-            margin:38px 0 0 0;
-        }
-        .big-box-1{
-            background:#111; 
-            border:2px solid #e53935; 
-            border-radius:16px; 
-            padding:32px 24px 24px 24px; 
-            max-width:700px; 
-            width:100%; 
-            text-align:center;
-        }
-        @media only screen and (max-width: 600px) {
-  .big-box-1{
-            background:#111; 
-            border:2px solid #e53935; 
-            border-radius:16px; 
-            padding:22px 14px 14px 14px; 
-            max-width:600px; 
-            width:90%; 
-            text-align:center;
-        }
-        .open-register-modal-btn-1{
-                background: #ff6600;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 750;
-    padding: 0px 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 16px #0003;
-    border-bottom: 4px solid #e53935;
-    display: inline-block;
-    cursor: pointer;
-    width: 90%;
-        }
-}
-
-
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -242,94 +34,107 @@
                     </div>
                 </div>
                 <form class="open-register-modal-form mt-3">
-                    <button class="register-btn open-register-modal-btn" type="button">➤ Register Now</button>
+                    <button class="register-btn open-register-modal-btn" type="button" STYLE="BORDER-RADIUS:10PX; font-size:26px; font-weight:600px">"I'M  READY TO BOOST MY ACTING SKILLS 10 TIMES!" <BR> (SECURE YOUR SPOT FOR FREE)</BUTTON>
                 </form>
+                <DIV CLass="fixed_pos">
+                    <div class="fixed_position">
+                        <p>
+                            DIGITAL MARKETING HINDI WEBINAR
+                           <span style="color:red;">LIVE</span>
+                           <span style="color:red;">***Be Quick! Last few spots for this batch are remaining!***</span>
+                            
+                            <span class="d-block d-md-none" style="color:#ffe600; font-weight:600;">
+                                इस Live लाइन को मोबाइल पर अलग से दिखाएं
+                            </span>
+                        </p>
+                    </div>
+                </DIV>
             </div>
         </div>
     </div>
     <!-- My Acting Work Section -->
-    <div class="container-fluid" style="background:white;">
-        <div class="section-title">My Acting Work</div>
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                    <img src="images/Acting-Crasoul-Pic-5.webp" alt="Acting Work 1" style="width:100%; border-radius:8px;">
-                </div>
-            </div>
-            <div class="item">
-                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                    <img src="images/Acting-Crasoul-Pic-6.webp" alt="Acting Work 2" style="width:100%; border-radius:8px;">
-                </div>
-            </div>
-            <div class="item">
-                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                    <img src="images/Acting-Crasoul-Pic-7.webp" alt="Acting Work 3" style="width:100%; border-radius:8px;">
-                </div>
-            </div>
-            <div class="item">
-                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                    <img src="images/Acting-Crasoul-Pic-8.webp" alt="Acting Work 4" style="width:100%; border-radius:8px;">
-                </div>
-            </div>
-            <div class="item">
-                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                    <img src="images/Acting-Crasoul-Pic-9.webp" alt="Acting Work 5" style="width:100%; border-radius:8px;">
-                </div>
-            </div>
-            <div class="item">
-                <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">
-                    <img src="images/Acting-Crasoul-Pic-12.webp" alt="Acting Work 6" style="width:100%; border-radius:8px;">
-                </div>
-            </div>
-           </div>
-    </div>
+    <!--<div class="container-fluid acting_work" style="background:white;">-->
+    <!--    <div class="section-title">My Acting Work</div>-->
+    <!--    <div class="owl-carousel owl-theme">-->
+    <!--        <div class="item">-->
+    <!--            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">-->
+    <!--                <img src="images/Acting-Crasoul-Pic-5.webp" alt="Acting Work 1" style="width:100%; border-radius:8px;">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="item">-->
+    <!--            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">-->
+    <!--                <img src="images/Acting-Crasoul-Pic-6.webp" alt="Acting Work 2" style="width:100%; border-radius:8px;">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="item">-->
+    <!--            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">-->
+    <!--                <img src="images/Acting-Crasoul-Pic-7.webp" alt="Acting Work 3" style="width:100%; border-radius:8px;">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="item">-->
+    <!--            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">-->
+    <!--                <img src="images/Acting-Crasoul-Pic-8.webp" alt="Acting Work 4" style="width:100%; border-radius:8px;">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="item">-->
+    <!--            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">-->
+    <!--                <img src="images/Acting-Crasoul-Pic-9.webp" alt="Acting Work 5" style="width:100%; border-radius:8px;">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="item">-->
+    <!--            <div style="background:#000; border-radius:10px; box-shadow:0 2px 12px #0002; padding:8px;">-->
+    <!--                <img src="images/Acting-Crasoul-Pic-12.webp" alt="Acting Work 6" style="width:100%; border-radius:8px;">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--       </div>-->
+    <!--</div>-->
     <!-- End My Acting Work Section -->
 
     <!-- Live Masterclass Steps Section -->
-    <div style="background:#fff; padding: 40px 0 60px 0;">
-        <div style="text-align:center; margin-bottom: 38px;">
-            <span style="font-size:2rem; font-family:'Mangal',Arial,sans-serif; color:#222; font-weight:400;">
-                इस <span style="color:#ff3c00;">Live Masterclass</span> में सीखिए
+    <div class="steps-section-bg steps-section-padding">
+        <div class="acting_work steps-section-title">
+            <span class="steps-section-heading">
+                इस <span class="steps-section-highlight">Live Masterclass</span> में सीखिए
             </span>
         </div>
-        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1100px; margin:0 auto;">
+        <div class="steps-section-flex">
             <!-- Step 1 -->
-            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
-                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #1</div>
-                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Your Acting Journey</div>
-                <div style="font-size:1em; color:#fff;">
+            <div class="abcd">
+                <div class="steps-step-number">Step #1</div>
+                <div class="steps-step-title">Your Acting Journey</div>
+                <div class="steps-step-desc">
                     कैसे आप घर बैठे अपनी Acting जर्नी को शुरू कर सकते हैं वह भी बहुत ही अफोर्डेबल प्राइस पर बिना लाखों रुपये खर्च किए。
                 </div>
             </div>
             <!-- Step 2 -->
-            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
-                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #2</div>
-                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Best Acting Tools & Techniques</div>
-                <div style="font-size:1em; color:#fff;">
+            <div class="abcd">
+                <div class="steps-step-number">Step #2</div>
+                <div class="steps-step-title">Best Acting Tools & Techniques</div>
+                <div class="steps-step-desc">
                     कैसे आप Best Acting टेक्निक्स का बेहतरीन तरीके से इस्तेमाल करके, एक Versatile और एक शानदार ACTOR बन सकते हैं。
                 </div>
             </div>
             <!-- Step 3 -->
-            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
-                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #3</div>
-                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Audition Hack</div>
-                <div style="font-size:1em; color:#fff;">
+            <div class="abcd">
+                <div class="steps-step-number">Step #3</div>
+                <div class="steps-step-title">Audition Hack</div>
+                <div class="steps-step-desc">
                     कैसे आप Audition के लिए अप्लाई करें, कैसे आप उसे Confidently क्रैक करें。
                 </div>
             </div>
             <!-- Step 4 -->
-            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
-                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #4</div>
-                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Film Industry Entry Blueprint</div>
-                <div style="font-size:1em; color:#fff;">
+            <div class="abcd">
+                <div class="steps-step-number">Step #4</div>
+                <div class="steps-step-title">Film Industry Entry Blueprint</div>
+                <div class="steps-step-desc">
                     कैसे आप Film Industry में अपना लिंक क्रिएट कर सकते हैं और अपना इनफ्लुएंस बिल्ड कर सकते हैं。
                 </div>
             </div>
             <!-- Step 5 -->
-            <div style="background:#1a1316; color:#fff; border-radius:12px; box-shadow:0 8px 32px #0002; width:300px; padding:28px 18px; text-align:center;">
-                <div style="font-size:2em; font-weight:700; color:#ff3c00; margin-bottom:8px;">Step #5</div>
-                <div style="font-size:1.25em; font-weight:600; margin-bottom:10px;">Casting Director's Hack Blueprint</div>
-                <div style="font-size:1em; color:#fff;">
+            <div class="abcd">
+                <div class="steps-step-number">Step #5</div>
+                <div class="steps-step-title">Casting Director's Hack Blueprint</div>
+                <div class="steps-step-desc">
                     कैसे आप Casting Director’s को अप्रोच कर उन्हें इंप्रेस करेंगे और Bollywood में एंट्री करके, अपने सपनों को पूरा करेंगे, उसका पूरा Blueprint आपके साथ शेयर किया जाएगा。
                 </div>
             </div>
@@ -338,11 +143,11 @@
     <!-- End Steps Section -->
 
     <!-- Bonuses Section -->
-    <div style="background:#101820; padding: 50px 0 30px 0;">
-        <div style="text-align:center; margin-bottom:38px;">
+    <div class="bonuses-section-bg bonuses-section-padding">
+        <div class="bonuses-section-title">
             <span class="bonus-section">
-                इस <span style="color:#ff3c00;">MASTERCLASS WEBINAR</span> में आपको,
-                <span style="color:#ff3c00;">5 BONUSES</span> मिलेंगे, जो आपकी जिंदगी बदल देंगे !
+                इस <span class="bonuses-section-highlight">MASTERCLASS WEBINAR</span> में आपको,
+                <span class="bonuses-section-highlight">5 BONUSES</span> मिलेंगे,<br> जो आपकी जिंदगी बदल देंगे !
             </span>
         </div>
         <div class="bonus-images-box">
@@ -350,168 +155,159 @@
             <img class="bonus-images-box-img" src="images/Acting-school-Bonus-2.webp" alt="Bonus 2" >
             <img class="bonus-images-box-img" src="images/Acting-school-Bonus-3.webp" alt="Bonus 3" >
         </div>
-        <div style="display:flex; justify-content:center; margin-top:18px;">
-            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff5c1a; color:#fff; font-size: 1em; font-weight:700; padding:10px 25px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
-        <span style="font-size:1.1em;">&#10148; DON'T MISS OUT – REGISTER NOW</span><br>
-        <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
-            🎁 ₹1499 की मास्टरक्लास अब सिर्फ ₹99 में!
-        </span>
-    </div>
+        <div class="bonuses-section-register-row">
+            <div class="open-register-modal-btn bonuses-section-register-btn" tabindex="0" role="button">
+                <span class="bonuses-section-register-btn-main">&#10148; DON'T MISS OUT – REGISTER NOW</span><br>
+                <span class="bonuses-section-register-btn-sub">
+                    🎁 ₹1499 की मास्टरक्लास अब सिर्फ ₹99 में!
+                </span>
+            </div>
         </div>
     </div>
     <!-- End Bonuses Section -->
 
     <!-- Are You Facing Section -->
-    <div style="background:#fff; padding:40px 0 0 0;">
-        <div style="text-align:center; font-size:2.5em; font-weight:700; color:#101820; letter-spacing:1px; margin-bottom:30px;">
-            ARE YOU <span style="color:#e53935;">FACING</span>
+    <div class="areyou-section-bg areyou-section-padding">
+        <div class="areyou-section-title">
+            ARE YOU <span class="areyou-section-highlight">FACING</span>
         </div>
-        <div style="display:flex; flex-direction:column; align-items:center; gap:18px;">
-            <div style="background:#111; color:#fff; border-radius:10px; width:480px; max-width:95%; padding:14px 18px; font-size:1.2em; text-align:left; display:flex; align-items:center; gap:10px;">
-                <span style="font-size:1.3em;">😳</span>
+        <div class="areyou-section-list">
+            <div class="areyou-section-list-item">
+                <span class="areyou-section-list-emoji">😳</span>
                 <span>Acting ki Sahi Training & Guidance.</span>
             </div>
-            <div style="background:#111; color:#fff; border-radius:10px; width:480px; max-width:95%; padding:14px 18px; font-size:1.2em; text-align:left; display:flex; align-items:center; gap:10px;">
-                <span style="font-size:1.3em;">😳</span>
+            <div class="areyou-section-list-item">
+                <span class="areyou-section-list-emoji">😳</span>
                 <span>Upcoming Audition Updates</span>
             </div>
-            <div style="background:#111; color:#fff; border-radius:10px; width:480px; max-width:95%; padding:14px 18px; font-size:1.2em; text-align:left; display:flex; align-items:center; gap:10px;">
-                <span style="font-size:1.3em;">😳</span>
+            <div class="areyou-section-list-item">
+                <span class="areyou-section-list-emoji">😳</span>
                 <span>Confused Between "Theatre & Camera" Acting.</span>
             </div>
-            <div style="background:#111; color:#fff; border-radius:10px; width:480px; max-width:95%; padding:14px 18px; font-size:1.2em; text-align:left; display:flex; align-items:center; gap:10px;">
-                <span style="font-size:1.3em;">😳</span>
+            <div class="areyou-section-list-item">
+                <span class="areyou-section-list-emoji">😳</span>
                 <span>Getting Stereo type Roles & No call backs after Audition.</span>
             </div>
         </div>
-        <div style="display:flex; justify-content:center; margin:38px 0 0 0;">
-            <div style="background:#f4431c; color:#fff; font-size:1em; font-weight:700; padding:10px 20px; border-radius:8px; text-align:center; max-width:600px; width:90%;">
-                <span style="font-size:1.2em;">😟 NO TIME FOR JOINING EXPENSIVE ACTING SCHOOL ARE THEATER INSTITUTE.</span><br>
-                <span style="font-size:0.85em; font-weight:400; display:block; margin-top:6px;">
+        <div class="areyou-section-warning-row">
+            <div class="areyou-section-warning">
+                <span class="areyou-section-warning-main">😟 NO TIME FOR JOINING EXPENSIVE ACTING SCHOOL ARE THEATER INSTITUTE.</span><br>
+                <span class="areyou-section-warning-sub">
                     I'M READY TO BOOST MY ACTING CARRIER BOOK YOUR FREE SPOT
                 </span>
             </div>
         </div>
-        <div class="big-box">
-            <div class="big-box-1" >
-                <div style="color:#ff3c00; font-size:2em; font-weight:700; margin-bottom:10px;">
-                    अभी रजिस्टर करें, यदि आप MOVIE, WEBSERIES, TV और AD FILMS में काम करना चाहते हैं。
-                </div>
-                <!-- Are You Facing Section: BOOK YOUR SPOT NOW (already handled) -->
-<form action="register.php" method="get" class="open-register-modal-form" style="margin-top:10px;">
-    <button type="button" class="open-register-modal-btn" style="background:#e53935; color:#fff; font-size:1.3em; font-weight:700; padding:14px 48px; border:none; border-radius:8px; cursor:pointer;">
-        BOOK YOUR SPOT NOW
-    </button>
-</form>
-            </div>
-        </div>
-        <div style="height:40px;"></div>
+      
+        <div class="areyou-section-bottom-space"></div>
     </div>
     <!-- End Are You Facing Section -->
 
    <!-- Testimonial Section -->
-    <div style="background:#fff; padding:50px 0 30px 0;">
-        <div style="text-align:center; margin-bottom:18px;">
-            <span style="background:#ff2d2d; color:#fff; font-size:1.5em; font-weight:800; padding:2px 10px; border-radius:4px;">
+    <div class="testimonial-section-bg testimonial-section-padding">
+        <div class="testimonial-section-title">
+            <span class="testimonial-section-title-highlight">
                 DON'T JUST TAKE MY WORD FOR IT
             </span>
         </div>
         <!-- New Video Testimonial Section -->
-        <div style="text-align:center; margin: 40px 0 32px 0;">
-            <span style="font-size:1.5em; color:#e53935; font-weight:600; font-family:Arial,sans-serif;">
-                <b>See What Our Aspiring Actors have to Say about <i>Us</i></b>
+        <div class="testimonial-section-heading-row">
+            <span class="testimonial-section-heading">
+                <b>See What Our Aspiring Actors have to Say about Us</b>
             </span>
         </div>
-        <div class="container">
-            <div class="owl-carousel owl-theme" id="testimonial-video-carousel">
-                <div class="item">
-                    <div style="border-radius:10px; overflow:hidden; box-shadow:0 2px 12px #0002; background:#000; max-width:320px; margin:auto;">
-                        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
-                            <iframe src="https://www.youtube.com/embed/LnZWIyZ_4Ds" title="Testimonial 1" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                    <div class="testimonial-video-box">
+                        <div class="testimonial-video-frame">
+                            <iframe src="https://www.youtube.com/embed/LnZWIyZ_4Ds" title="Testimonial 1" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div style="border-radius:10px; overflow:hidden; box-shadow:0 2px 12px #0002; background:#000; max-width:320px; margin:auto;">
-                        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
-                            <iframe src="https://www.youtube.com/embed/h2BslXTfJsA" title="Testimonial 2" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+                <div class="col-md-6 mb-4">
+                    <div class="testimonial-video-box">
+                        <div class="testimonial-video-frame">
+                            <iframe src="https://www.youtube.com/embed/h2BslXTfJsA" title="Testimonial 2" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div style="border-radius:10px; overflow:hidden; box-shadow:0 2px 12px #0002; background:#000; max-width:320px; margin:auto;">
-                        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
-                            <iframe src="https://www.youtube.com/embed/WWCqxVa75zA" title="Testimonial 3" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+                <div class="col-md-6 mb-4">
+                    <div class="testimonial-video-box">
+                        <div class="testimonial-video-frame">
+                            <iframe src="https://www.youtube.com/embed/WWCqxVa75zA" title="Testimonial 3" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <!-- Add more items as needed -->
+                <div class="col-md-6 mb-4">
+                    <div class="testimonial-video-box">
+                        <div class="testimonial-video-frame">
+                            <iframe src="https://www.youtube.com/embed/LnZWIyZ_4Ds" title="Testimonial 1" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more testimonials in the same format -->
             </div>
         </div>
         <!-- End New Video Testimonial Section -->
-        <div class="mt-4" style="text-align:center; font-size:2em; font-weight:700; color:#222; margin-bottom:38px;">
+        <div class="testimonial-section-subtitle">
             Have A Look At <u>What People Have To Speak About Us</u>
         </div>
-        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:32px 28px; max-width:1200px; margin:0 auto 40px auto;">
-            <img src="images/image.png" alt="Review 1" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
-            <img src="images/image.png" alt="Review 2" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
-            <img src="images/image.png" alt="Review 3" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
-            <img src="images/image.png" alt="Review 4" style="width:370px; max-width:95%; border-radius:14px; box-shadow:0 8px 32px #0002;">
+        <div class="testimonial-section-images">
+            <img src="images/image.png" alt="Review 1" class="testimonial-section-img">
+            <img src="images/image.png" alt="Review 2" class="testimonial-section-img">
+            <img src="images/image.png" alt="Review 3" class="testimonial-section-img">
+            <img src="images/image.png" alt="Review 4" class="testimonial-section-img">
         </div>
-        <div style="display:flex; justify-content:center; margin-top:18px;">
-            <div class="open-register-modal-btn" tabindex="0" role="button" style="background:#ff2d2d; color:#fff; font-size:1em; font-weight:750; padding:0px 25px; border-radius:8px; text-align:center; box-shadow:0 4px 16px #0003; cursor:pointer;">
-        <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW!</span><br>
-        <span style="font-size:0.8em; font-weight:400; display:block; margin-top:6px;">
-            (FOR 99 <span style="font-size:1.1em;">🤩</span>)
-        </span>
-    </div>
+        <div class="testimonial-section-register-row">
+            <div class="open-register-modal-btn testimonial-section-register-btn" tabindex="0" role="button">
+                <span class="testimonial-section-register-btn-main">➤ REGISTER THE WORKSHOP NOW!</span><br>
+                <span class="testimonial-section-register-btn-sub">
+                    (FOR 99 <span style="font-size:1.1em;">🤩</span>)
+                </span>
+            </div>
         </div>
     </div>
     <!-- End Testimonial Section -->
 
     <!-- Meet Your Mentor Section -->
-    <div style="background:#18181a; padding:60px 0 60px 0;">
-        <div style="text-align:center; margin-bottom:38px;">
-            <span style="background:#06142e; color:#fff; font-size:2.2em; font-weight:900; padding:4px 28px; border-radius:8px; border:2px solid #06142e;">
-                Meet <span style="color:#ff2d2d;">Your Mentor</span>
+    <div class="mentor-section-bg mentor-section-padding">
+        <div class="mentor-section-title-row">
+            <span class="mentor-section-title">
+                Meet <span class="mentor-section-title-highlight">Your Mentor</span>
             </span>
         </div>
-        <div style="max-width:1100px; margin:0 auto; border:2px solid #06142e; border-radius:16px; padding:38px 24px 32px 24px; display:flex; flex-wrap:wrap; gap:32px; background:#18181a;">
-            <div style="flex:1 1 320px; display:flex; flex-direction:column; align-items:center;">
-                <img src="images/fg_person.webp" alt="Radhe Ajeet Chaudhary" style="    width: 355px;
-    max-width: 131%;
- border-radius:16px;">
-                <div style="margin-top:24px; color:#ff2d2d; font-size:2em; font-weight:900; text-align:center;">
+        <div class="mentor-section-card">
+            <div class="mentor-section-img-col">
+                <img src="images/fg_person.webp" alt="Radhe Ajeet Chaudhary" class="mentor-section-img">
+                <div class="mentor-section-name">
                     Radhe Ajeet Chaudhary
                 </div>
-                <div style="color:#fff; font-size:1.1em; margin-top:6px; text-align:center;">
+                <div class="mentor-section-role">
                     <span style="color:#ff2d2d;">&#9632;</span> Founder of FG ACTING SCHOOL
                 </div>
-                <form action="register.php" method="get" style="margin-top:22px; text-align:center;">
-                    <!-- <button type="submit" style="background:#ff6600; color:#fff; font-size:1.2em; font-weight:700; padding:12px 38px; border:none; border-radius:8px; cursor:pointer;">
+                <form action="register.php" method="get" class="mentor-section-form">
+                    <!-- <button type="submit" class="mentor-section-btn">
                         ➤ REGISTER NOW
                     </button> -->
                 </form>
             </div>
-            <div style="flex:2 1 420px; color:#fff; font-size:1.15em; line-height:1.7; font-family:'Mangal',Arial,sans-serif;">
+            <div class="mentor-section-bio">
                 Hello Aspiring Actors, नमस्ते, मेरा नाम “राधे अजीत चौधरी” है 8 साल का मुझे Theatre का Experience है और इन 8 सालों में, मैंने बहुत सारी Theatre Plays किए हैं, YouTube Projects किए, बहुत सारे किरदारों को मैंने जीवंत किया है बहुत सारी थिएटर प्ले में जैसे: Jaise Karni Vaise Bharni, Selfie le le, My best Friend, Fauji, The King, Aadhe Adhure इत्यादि और जिन किरदारों को मैंने जीवंत किया, आसानी किया जैसे: Ashwathama the Curse Warrior, Toba Take Singh, Tuglaki Farmaan, Kaala Suite Anchor in Aadhe Adhure इत्यादि। और Saadhna TV और Disha TV पर भी में आ चुका हूं। तो इस मास्टर क्लास में जो आप सीखने वाले हैं वह सब कुछ मैंने एक ऐसे टीचर से सीखा है जिन्होंने खुद Sahara One, Star Plus और Colors चैनल में As a Creative Head काम किया है। इसके अलावा मेरे गुरु के बहुत सारे दोस्त आज Bollywood Film industry में एक नामचीन हस्ती है कोई Actor है कोई Writer है कोई Director है कोई Casting Director है तो कोई “STAR” है। तो इसलिए यह मास्टर क्लास किसी की कमी पर मिस मत कीजिएगा क्योंकि यह आपके लिए लाइफ चेंजिंग साबित हो सकती है इसलिए तुरंत ही रजिस्टर करिए और अपना स्लॉट बुक कर लीजिए क्योंकि पहले 100 लोगों के लिए बिल्कुल FREE है। तो इस “Zero to Hero” Masterclass वेबिनार में, मैं वह सारे Secrets , तो सारे Hacks शेयर करने वाला हूं जिससे आप तुरंत ही वहीं से ही अपनी ACTING जर्नी की शुरू करके Films, Webseries और TV में As an ACTOR काम करना शुरू कर देंगे। तो जानना चाहते हैं कैसे तो Book Now पर क्लिक करके जल्दी से रजिस्टर करिए और मिलिए मुझसे LIVE WEBINAR में !
             </div>
         </div>
-        <div style="display:flex; justify-content:center; margin-top:38px;">
-            <div class="open-register-modal-btn open-register-modal-btn-1" tabindex="0" role="button" >
-                <span style="font-size:1.1em;">➤ REGISTER THE WORKSHOP NOW! &nbsp; (FOR FREE <span style="font-size:1.1em;">🤩</span>)</span>
+        <div class="mentor-section-register-row">
+            <div class="open-register-modal-btn open-register-modal-btn-1 mentor-section-register-btn" tabindex="0" role="button">
+                <span class="mentor-section-register-btn-main">➤ ₹99 में अभी रजिस्टर करें </span>
             </div>
         </div>
     </div>
     <!-- End Meet Your Mentor Section -->
-
-   <!-- FAQ Section -->
-      <!-- FAQ Section -->
-    <div style="background:#fff; padding:60px 0 40px 0;">
+<div style="background:#fff; padding:60px 0 40px 0;">
         <div style="text-align:center; font-size:1.5em; font-weight:800; color:#101820; letter-spacing:1px; margin-bottom:30px;">
             FREQUENTLY ASKED QUESTIONS
         </div>
-        <div class="container" >
+        <div class="container">
             <div class="accordion" id="faqAccordion">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeading1">
@@ -591,7 +387,7 @@
                     <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             <i class="bi bi-info-circle-fill text-success me-2"></i>
-                            नहीं, Actor बनने के लिए English जानना जरूरी नहीं है। यह मास्टरक्लास हिंदी में है और इसमें आपको पूरी जानकारी और मार्गदर्शन हिंदी में दिया जाएगा。</br>
+                            नहीं, Actor बनने के लिए English जानना जरूरी नहीं है। यह मास्टरक्लास हिंदी में है और इसमें आपको पूरी जानकारी और मार्गदर्शन हिंदी में दिया जाएगा。<br>
                             देखिए, किसी भी Creative Field में एक ही रूल होता है कि आपके अंदर प्रतिभा होनी चाहिए, तभी आप लंबे समय तक काम कर पाएंगे |
                         </div>
                     </div>
@@ -652,7 +448,7 @@
                     <div id="faqCollapse9" class="accordion-collapse collapse" aria-labelledby="faqHeading9" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             <i class="bi bi-info-circle-fill text-success me-2"></i>
-                           यदि उनका इंटरेस्ट Acting में है तो, अन्यथा बिल्कुल भी नहीं |</br><i class="bi bi-info-circle-fill text-success me-2"></i>
+                           यदि उनका इंटरेस्ट Acting में है तो, अन्यथा बिल्कुल भी नहीं |<br><i class="bi bi-info-circle-fill text-success me-2"></i>
 मैं फिर कह रहा हूं यह Webinar हर उस इंसान के लिए है जो सच में एक शानदार Actor बनना चाहता है क्योंकि यह Online Webinar है और हिंदी में हैं तो इसे आसानी से हर कोई समझ सकता है और जहां है वहीं से ही Attend कर सकता है|
                         </div>
                     </div>
@@ -674,20 +470,41 @@
             </div>
         </div>
     </div>
-    <!-- End FAQ Section -->
-
-    <!-- End FAQ Section -->
 
     <!-- Footer Section -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <div style="background:#101820; padding:40px 0 80px 0;">
-        <div style="text-align:center; color:#fff; font-size:1.1em; line-height:1.6;">
-            &copy; 2023 Zero to Hero Masterclass. All Rights Reserved.<br>
-            इस वेबसाइट पर दी गई सभी जानकारियाँ केवल शैक्षिक उद्देश्यों के लिए हैं। कृपया कोई भी निर्णय लेने से पहले उचित शोध और परामर्श करें。
-        </div>
-        <div style="text-align:center; color:#ffe600; font-size:1.1em; margin-top:18px;">
-            Designed & Developed by FG Team | <a href="register.php" style="color:#ff6600; text-decoration:underline;">Register Now</a>
-        </div>
+    <div style="text-align:center; color:#fff; font-size:1.1em; line-height:1.6;">
+        &copy; 2025 Zero to Hero Masterclass. All Rights Reserved.<br>
+        इस वेबसाइट पर दी गई सभी जानकारियाँ केवल शैक्षिक उद्देश्यों के लिए हैं। कृपया कोई भी निर्णय लेने से पहले उचित शोध और परामर्श करें。
     </div>
+
+    <!-- Social Media Icons -->
+<div style="text-align:center; margin-top:20px;">
+    <a href="https://instagram.com/coachfilmiguruji99" target="_blank" style="color:#fff; margin:0 10px; font-size:1.5em; text-decoration:none;">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://youtube.com/@filmiguruji499" target="_blank" style="color:#25D366; margin:0 10px; font-size:1.5em; text-decoration:none;">
+        <i class="fab fa-youtube"></i>
+    </a>
+    
+    <a href="https://www.facebook.com/profile.php?id=61551131457957&mibextid=9R9pXO" target="_blank" style="color:#1877f2; margin:0 10px; font-size:1.5em; text-decoration:none;">
+        <i class="fab fa-facebook"></i>
+    </a>
+   <a href="mailto:filmiguruji99@gmail.com" style="color:#fff; margin:0 10px; font-size:1.5em; text-decoration:none;">
+        <i class="fas fa-envelope"></i>
+    </a>
+</div>
+
+
+    <!-- Credits -->
+    <div style="text-align:center; color:#ffe600; font-size:1.1em; margin-top:18px;">
+        Designed & Developed by FG Team | 
+        <a href="register.php" style="color:#ff6600; text-decoration:underline;">Register Now</a>
+    </div>
+</div>
+
     <!-- End Footer Section -->
 
     <!-- Sticky Register Now Button (with popup trigger) -->
@@ -706,17 +523,18 @@
     min-height: 54px;
 ">
     <button type="button" id="openRegisterModal" style="
-        background: #ff5c1a;
-        border: 1px solid #e1cfcf;
-        border-radius: 30px;
-        color: white;
-        padding: 8px 32px;
-        font-weight: 700;
-        font-size: 1.15em;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        cursor: pointer;
+            background: #10182b;
+    border: 1px solid #10182b;
+    border-radius: 30px;
+    color: white;
+    padding: 8px 32px;
+    font-weight: 700;
+    font-size: 1.15em;
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
     ">
         <i class="bi bi-chevron-right" style="font-size:1.1em;"></i> Register Now
     </button>
@@ -744,13 +562,16 @@
               <input type="text" name="last_name" class="form-control" placeholder="आपका सरनेम - Last Name" required style="font-size:1.1em; border-radius:8px;">
             </div>
           </div>
-          <div class="mb-2 " style="padding-top:20px">
+          <div class="mb-2" style="">
             <input type="text" name="whatsapp" maxlength="10" pattern="\d{10}" class="form-control" placeholder="आपका Whatsapp नम्बर - Whatsapp Number 10 Digits" required style="font-size:1.1em; border-radius:8px;">
-            <div style="font-size:0.95em; color:#222; text-align:left; margin-top:2px;">10 of 10 Number(s) left</div>
+            <!--<div style="font-size:0.95em; color:#222; text-align:left; margin-top:2px;">10 of 10 Number(s) left</div>-->
           </div>
           <div class="mb-3">
             <input type="email" name="email" class="form-control" placeholder="आपकी Email Address - Enter your e-mail" required style="font-size:1.1em; border-radius:8px;">
           </div>
+           <div class="mb-3">
+              <input type="text" name="आप एक्टर क्यों बनना चाहते हैं?" class="form-control" placeholder="आप एक्टर क्यों बनना चाहते हैं?" required style="font-size:1.1em; border-radius:8px; height: 70px;">
+            </div>
           <button type="submit" class="btn" style="background:#e60000; color:#fff; font-size:1.3em; font-weight:700; border-radius:30px; padding:12px 48px; margin:18px 0 8px 0;">
             <i class="bi bi-box-arrow-in-right me-2"></i> Register Now
           </button>
@@ -859,7 +680,11 @@
                         if(res.status === "pending" && res.registration_id) {
                             // Now start Razorpay payment and pass registration_id
                             startRazorpayPayment(formData, res.registration_id);
-                        } else {
+                             // Redirect to thank you page
+                                 
+                        } 
+                        
+                        else {
                             alert("Could not save registration. Please try again.");
                         }
                     },
@@ -871,7 +696,12 @@
                 alert("Please fill all fields.");
             }
         });
+
+        // Show registration popup every time user visits the page
+        var modal = new bootstrap.Modal(document.getElementById('registerModal'));
+        modal.show();
     });
     </script>
 </body>
 </html>
+
